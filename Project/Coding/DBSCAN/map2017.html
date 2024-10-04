@@ -1,0 +1,5238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_91b16595cc8bb02b583fe8c829bc3fbb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_91b16595cc8bb02b583fe8c829bc3fbb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_91b16595cc8bb02b583fe8c829bc3fbb = L.map(
+                "map_91b16595cc8bb02b583fe8c829bc3fbb",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_68abf8651dbbda59b7fc08dbbae35b76 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_68abf8651dbbda59b7fc08dbbae35b76.addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+            var marker_0dd074a5f9396c71af6afe4fcdc187d9 = L.marker(
+                [34.895928, 35.886652],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_f384b0c73b06d3f3680b38a30587acd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_933b84ec320cdfa130321cffff72a4a9 = $(`<div id="html_933b84ec320cdfa130321cffff72a4a9" style="width: 100.0%; height: 100.0%;">2017/1/1|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_f384b0c73b06d3f3680b38a30587acd5.setContent(html_933b84ec320cdfa130321cffff72a4a9);
+            
+        
+
+        marker_0dd074a5f9396c71af6afe4fcdc187d9.bindPopup(popup_f384b0c73b06d3f3680b38a30587acd5)
+        ;
+
+        
+    
+    
+            var marker_5d493f186e22a96fee8c46a258bfe48f = L.marker(
+                [34.520279, 37.630001],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_3675474503a0428eada85cf2f2bcafb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e14a413421ee3b35017cf7e16a585794 = $(`<div id="html_e14a413421ee3b35017cf7e16a585794" style="width: 100.0%; height: 100.0%;">2017/1/4|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_3675474503a0428eada85cf2f2bcafb5.setContent(html_e14a413421ee3b35017cf7e16a585794);
+            
+        
+
+        marker_5d493f186e22a96fee8c46a258bfe48f.bindPopup(popup_3675474503a0428eada85cf2f2bcafb5)
+        ;
+
+        
+    
+    
+            var marker_991f6fe8ea7bd1e34590b33cb8dc8350 = L.marker(
+                [35.36157, 35.927156],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_b936557b0b34417b7ec78e50f6e4630d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ec54837335912f0e71166f44b9f3434 = $(`<div id="html_1ec54837335912f0e71166f44b9f3434" style="width: 100.0%; height: 100.0%;">2017/1/5|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_b936557b0b34417b7ec78e50f6e4630d.setContent(html_1ec54837335912f0e71166f44b9f3434);
+            
+        
+
+        marker_991f6fe8ea7bd1e34590b33cb8dc8350.bindPopup(popup_b936557b0b34417b7ec78e50f6e4630d)
+        ;
+
+        
+    
+    
+            var marker_0a56c56fc4d77ef2925fcf7b4e35487f = L.marker(
+                [36.585437, 37.04692],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_739a0c85f08a19f776fa000097382531 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a0fe8e424dc01a4d19d8a9192550849 = $(`<div id="html_9a0fe8e424dc01a4d19d8a9192550849" style="width: 100.0%; height: 100.0%;">2017/1/7|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_739a0c85f08a19f776fa000097382531.setContent(html_9a0fe8e424dc01a4d19d8a9192550849);
+            
+        
+
+        marker_0a56c56fc4d77ef2925fcf7b4e35487f.bindPopup(popup_739a0c85f08a19f776fa000097382531)
+        ;
+
+        
+    
+    
+            var marker_7abaa814a841159941790e634702e3e7 = L.marker(
+                [36.366198, 37.512275],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_f127c846cdf86bad84b55c0b5d1e1037 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95c181dde0c0f4450c416d6566183a13 = $(`<div id="html_95c181dde0c0f4450c416d6566183a13" style="width: 100.0%; height: 100.0%;">2017/1/7|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_f127c846cdf86bad84b55c0b5d1e1037.setContent(html_95c181dde0c0f4450c416d6566183a13);
+            
+        
+
+        marker_7abaa814a841159941790e634702e3e7.bindPopup(popup_f127c846cdf86bad84b55c0b5d1e1037)
+        ;
+
+        
+    
+    
+            var marker_4405d18f277d7f41b05705e0fdc357bc = L.marker(
+                [34.554427, 38.282841],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_3cc0c601d68be26c28af47f91a62776e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3316be2eba8042138c07f52783ef0417 = $(`<div id="html_3316be2eba8042138c07f52783ef0417" style="width: 100.0%; height: 100.0%;">2017/1/8|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_3cc0c601d68be26c28af47f91a62776e.setContent(html_3316be2eba8042138c07f52783ef0417);
+            
+        
+
+        marker_4405d18f277d7f41b05705e0fdc357bc.bindPopup(popup_3cc0c601d68be26c28af47f91a62776e)
+        ;
+
+        
+    
+    
+            var marker_582ec7556febb16e0756ed7070b80436 = L.marker(
+                [37.05336, 41.227344],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_b4e1753fc52ccc18809b578eb528abf1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_745546bd1b668328a3191795b6723ad2 = $(`<div id="html_745546bd1b668328a3191795b6723ad2" style="width: 100.0%; height: 100.0%;">2017/1/9|Unknown</div>`)[0];
+                popup_b4e1753fc52ccc18809b578eb528abf1.setContent(html_745546bd1b668328a3191795b6723ad2);
+            
+        
+
+        marker_582ec7556febb16e0756ed7070b80436.bindPopup(popup_b4e1753fc52ccc18809b578eb528abf1)
+        ;
+
+        
+    
+    
+            var marker_c2ba11fd71cdc43315ed0081b415ffba = L.marker(
+                [35.991705, 36.393812],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_3844db502f8340116d0148e57aa3abd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2a7326da2bf10a96732fc6afb3d5f60 = $(`<div id="html_e2a7326da2bf10a96732fc6afb3d5f60" style="width: 100.0%; height: 100.0%;">2017/1/10|Unknown</div>`)[0];
+                popup_3844db502f8340116d0148e57aa3abd9.setContent(html_e2a7326da2bf10a96732fc6afb3d5f60);
+            
+        
+
+        marker_c2ba11fd71cdc43315ed0081b415ffba.bindPopup(popup_3844db502f8340116d0148e57aa3abd9)
+        ;
+
+        
+    
+    
+            var marker_79754ce822ebb79e9c5181168efb6797 = L.marker(
+                [36.201721, 37.143521],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_698e2a5c236215189b5fd5d812392a8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c595b32466c947f3345be8954b701230 = $(`<div id="html_c595b32466c947f3345be8954b701230" style="width: 100.0%; height: 100.0%;">2017/1/11|Unknown</div>`)[0];
+                popup_698e2a5c236215189b5fd5d812392a8c.setContent(html_c595b32466c947f3345be8954b701230);
+            
+        
+
+        marker_79754ce822ebb79e9c5181168efb6797.bindPopup(popup_698e2a5c236215189b5fd5d812392a8c)
+        ;
+
+        
+    
+    
+            var marker_30a2335729fbe6f13496ec11b392c97d = L.marker(
+                [33.484396, 36.268508],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_111c2b1ac288f69466946ac7bd2f2ae5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba885ace80b7cc1211f3cb75f9d9f6fe = $(`<div id="html_ba885ace80b7cc1211f3cb75f9d9f6fe" style="width: 100.0%; height: 100.0%;">2017/1/12|Al-Nusrah Front</div>`)[0];
+                popup_111c2b1ac288f69466946ac7bd2f2ae5.setContent(html_ba885ace80b7cc1211f3cb75f9d9f6fe);
+            
+        
+
+        marker_30a2335729fbe6f13496ec11b392c97d.bindPopup(popup_111c2b1ac288f69466946ac7bd2f2ae5)
+        ;
+
+        
+    
+    
+            var marker_8fbfdd91304c20a5788d86872886a0b7 = L.marker(
+                [33.614848, 36.182095],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_2a524e23379271d73b58f845439fea42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0706c989fea5cc53816665b3e374f629 = $(`<div id="html_0706c989fea5cc53816665b3e374f629" style="width: 100.0%; height: 100.0%;">2017/1/14|Al-Nusrah Front</div>`)[0];
+                popup_2a524e23379271d73b58f845439fea42.setContent(html_0706c989fea5cc53816665b3e374f629);
+            
+        
+
+        marker_8fbfdd91304c20a5788d86872886a0b7.bindPopup(popup_2a524e23379271d73b58f845439fea42)
+        ;
+
+        
+    
+    
+            var marker_ec3313c229b23a809c0c37e837769af0 = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_e26e167436dfd9d9eaae089747ee95dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cded6a3006faa5f935c89874f8088bd7 = $(`<div id="html_cded6a3006faa5f935c89874f8088bd7" style="width: 100.0%; height: 100.0%;">2017/1/14|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_e26e167436dfd9d9eaae089747ee95dd.setContent(html_cded6a3006faa5f935c89874f8088bd7);
+            
+        
+
+        marker_ec3313c229b23a809c0c37e837769af0.bindPopup(popup_e26e167436dfd9d9eaae089747ee95dd)
+        ;
+
+        
+    
+    
+            var marker_99272730d2a083449c487327b7b638ce = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_b5eaf1758210624ea4f9532e95e5cd12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f3ff4801b3c6e4e8c1942635296683a = $(`<div id="html_0f3ff4801b3c6e4e8c1942635296683a" style="width: 100.0%; height: 100.0%;">2017/1/14|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_b5eaf1758210624ea4f9532e95e5cd12.setContent(html_0f3ff4801b3c6e4e8c1942635296683a);
+            
+        
+
+        marker_99272730d2a083449c487327b7b638ce.bindPopup(popup_b5eaf1758210624ea4f9532e95e5cd12)
+        ;
+
+        
+    
+    
+            var marker_96a91df74a8db65ea05e5268c5ea101a = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_b5cc35729536e27bf44b5b3f1d9a3306 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94771f5f61302dd7ba15747423452229 = $(`<div id="html_94771f5f61302dd7ba15747423452229" style="width: 100.0%; height: 100.0%;">2017/1/14|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_b5cc35729536e27bf44b5b3f1d9a3306.setContent(html_94771f5f61302dd7ba15747423452229);
+            
+        
+
+        marker_96a91df74a8db65ea05e5268c5ea101a.bindPopup(popup_b5cc35729536e27bf44b5b3f1d9a3306)
+        ;
+
+        
+    
+    
+            var marker_5fcc7804ddce03e29fdd2142ee5ad88a = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_9867a3582f4d0f8f48b3aef2e2995d17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_207b9c62442ab28afff515c8f43ab8e7 = $(`<div id="html_207b9c62442ab28afff515c8f43ab8e7" style="width: 100.0%; height: 100.0%;">2017/1/14|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_9867a3582f4d0f8f48b3aef2e2995d17.setContent(html_207b9c62442ab28afff515c8f43ab8e7);
+            
+        
+
+        marker_5fcc7804ddce03e29fdd2142ee5ad88a.bindPopup(popup_9867a3582f4d0f8f48b3aef2e2995d17)
+        ;
+
+        
+    
+    
+            var marker_2ff5b1f476af0b873e6a9117764fecac = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_0d1f7c0dc6ab20c610f6cd2db9bdbe4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb547a692e19be56e58ffb0f593942ba = $(`<div id="html_cb547a692e19be56e58ffb0f593942ba" style="width: 100.0%; height: 100.0%;">2017/1/14|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_0d1f7c0dc6ab20c610f6cd2db9bdbe4e.setContent(html_cb547a692e19be56e58ffb0f593942ba);
+            
+        
+
+        marker_2ff5b1f476af0b873e6a9117764fecac.bindPopup(popup_0d1f7c0dc6ab20c610f6cd2db9bdbe4e)
+        ;
+
+        
+    
+    
+            var marker_733c0bad30bcf95906ef315fd1897d35 = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_5fd55d7863d02094111dfcd6cad63aed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dee81df07e9f498238191645a2f24048 = $(`<div id="html_dee81df07e9f498238191645a2f24048" style="width: 100.0%; height: 100.0%;">2017/1/14|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_5fd55d7863d02094111dfcd6cad63aed.setContent(html_dee81df07e9f498238191645a2f24048);
+            
+        
+
+        marker_733c0bad30bcf95906ef315fd1897d35.bindPopup(popup_5fd55d7863d02094111dfcd6cad63aed)
+        ;
+
+        
+    
+    
+            var marker_294fe47357d7b8dbe8037af2d432012d = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a3799bf5e583314e003de05557aecae1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_184ee29f9466241ee2ca51a3020c9ce7 = $(`<div id="html_184ee29f9466241ee2ca51a3020c9ce7" style="width: 100.0%; height: 100.0%;">2017/1/14|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_a3799bf5e583314e003de05557aecae1.setContent(html_184ee29f9466241ee2ca51a3020c9ce7);
+            
+        
+
+        marker_294fe47357d7b8dbe8037af2d432012d.bindPopup(popup_a3799bf5e583314e003de05557aecae1)
+        ;
+
+        
+    
+    
+            var marker_46df136cf4f1d353945adcce8d0493ef = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a5d293c3118e4543cbca0d6554f6c310 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa5e193c73a58f968c12f89c646f64e6 = $(`<div id="html_fa5e193c73a58f968c12f89c646f64e6" style="width: 100.0%; height: 100.0%;">2017/1/14|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_a5d293c3118e4543cbca0d6554f6c310.setContent(html_fa5e193c73a58f968c12f89c646f64e6);
+            
+        
+
+        marker_46df136cf4f1d353945adcce8d0493ef.bindPopup(popup_a5d293c3118e4543cbca0d6554f6c310)
+        ;
+
+        
+    
+    
+            var marker_8c9fb4b33f5e471f1ee02fc8f1bc1f4b = L.marker(
+                [35.991705, 36.393812],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a9134a807f3f2f1fb08ff63e3aa3c239 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a6dd5878431606ee08dfb51ac4f20d7 = $(`<div id="html_5a6dd5878431606ee08dfb51ac4f20d7" style="width: 100.0%; height: 100.0%;">2017/1/15|Al-Nusrah Front</div>`)[0];
+                popup_a9134a807f3f2f1fb08ff63e3aa3c239.setContent(html_5a6dd5878431606ee08dfb51ac4f20d7);
+            
+        
+
+        marker_8c9fb4b33f5e471f1ee02fc8f1bc1f4b.bindPopup(popup_a9134a807f3f2f1fb08ff63e3aa3c239)
+        ;
+
+        
+    
+    
+            var marker_3839bc150d8ec5a454dfddc02062154b = L.marker(
+                [36.445278, 37.627222],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_6e87d396c69f34880294138b2321184c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bd1e84827d42644c3bdf3a233bee678 = $(`<div id="html_9bd1e84827d42644c3bdf3a233bee678" style="width: 100.0%; height: 100.0%;">2017/1/15|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_6e87d396c69f34880294138b2321184c.setContent(html_9bd1e84827d42644c3bdf3a233bee678);
+            
+        
+
+        marker_3839bc150d8ec5a454dfddc02062154b.bindPopup(popup_6e87d396c69f34880294138b2321184c)
+        ;
+
+        
+    
+    
+            var marker_f1da43a2afaa5a7fe8a77ced7582b8b8 = L.marker(
+                [33.561505, 36.368762],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_d4d474e70887eaf716152ded70481f01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4102a1c2c1e8d48548b61e386f940004 = $(`<div id="html_4102a1c2c1e8d48548b61e386f940004" style="width: 100.0%; height: 100.0%;">2017/1/17|Fajr al-Umma Brigade</div>`)[0];
+                popup_d4d474e70887eaf716152ded70481f01.setContent(html_4102a1c2c1e8d48548b61e386f940004);
+            
+        
+
+        marker_f1da43a2afaa5a7fe8a77ced7582b8b8.bindPopup(popup_d4d474e70887eaf716152ded70481f01)
+        ;
+
+        
+    
+    
+            var marker_dcaedf1b8eec3890484e9902bb4af6f1 = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a4a6f8b3b7d19d1fcb33aff95c0fcd8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd79a8f0e71c9a3dc95b6d00b4649e3d = $(`<div id="html_dd79a8f0e71c9a3dc95b6d00b4649e3d" style="width: 100.0%; height: 100.0%;">2017/1/14|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_a4a6f8b3b7d19d1fcb33aff95c0fcd8e.setContent(html_dd79a8f0e71c9a3dc95b6d00b4649e3d);
+            
+        
+
+        marker_dcaedf1b8eec3890484e9902bb4af6f1.bindPopup(popup_a4a6f8b3b7d19d1fcb33aff95c0fcd8e)
+        ;
+
+        
+    
+    
+            var marker_36136c362b3d6e01ec57ca9a82a80482 = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_21fdaf4ede01a8793a6b39f997875c42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd7ea60f901421270c62eb8ef83bf68c = $(`<div id="html_fd7ea60f901421270c62eb8ef83bf68c" style="width: 100.0%; height: 100.0%;">2017/1/14|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_21fdaf4ede01a8793a6b39f997875c42.setContent(html_fd7ea60f901421270c62eb8ef83bf68c);
+            
+        
+
+        marker_36136c362b3d6e01ec57ca9a82a80482.bindPopup(popup_21fdaf4ede01a8793a6b39f997875c42)
+        ;
+
+        
+    
+    
+            var marker_97499b612f3cb9d601a54addcc73edb7 = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_f9ef59ffe3f779b9306da94d80071737 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a01c3dcfb1e0e0930a422d29657ab28a = $(`<div id="html_a01c3dcfb1e0e0930a422d29657ab28a" style="width: 100.0%; height: 100.0%;">2017/1/14|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_f9ef59ffe3f779b9306da94d80071737.setContent(html_a01c3dcfb1e0e0930a422d29657ab28a);
+            
+        
+
+        marker_97499b612f3cb9d601a54addcc73edb7.bindPopup(popup_f9ef59ffe3f779b9306da94d80071737)
+        ;
+
+        
+    
+    
+            var marker_d3fd7a935a572445e91f75f239895f35 = L.marker(
+                [35.321843, 40.041601],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_525f4948aabb1de88dcc140b2aafd391 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2feb4ae63b7558c50fd1c8f946038e19 = $(`<div id="html_2feb4ae63b7558c50fd1c8f946038e19" style="width: 100.0%; height: 100.0%;">2017/1/14|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_525f4948aabb1de88dcc140b2aafd391.setContent(html_2feb4ae63b7558c50fd1c8f946038e19);
+            
+        
+
+        marker_d3fd7a935a572445e91f75f239895f35.bindPopup(popup_525f4948aabb1de88dcc140b2aafd391)
+        ;
+
+        
+    
+    
+            var marker_6c8acad084000d5890ab284ab10200ee = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_59823cde83f148c1d55e3062d7f620bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08b5953544c4d0ab24740eaa54960fd6 = $(`<div id="html_08b5953544c4d0ab24740eaa54960fd6" style="width: 100.0%; height: 100.0%;">2017/1/16|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_59823cde83f148c1d55e3062d7f620bb.setContent(html_08b5953544c4d0ab24740eaa54960fd6);
+            
+        
+
+        marker_6c8acad084000d5890ab284ab10200ee.bindPopup(popup_59823cde83f148c1d55e3062d7f620bb)
+        ;
+
+        
+    
+    
+            var marker_efa010606ef4a878ff3c59affeb19167 = L.marker(
+                [36.201721, 37.143521],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_ad9c75912ce22a1a97964c6eec644383 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d2e7edb583efab16e92eb4eddddeb52 = $(`<div id="html_4d2e7edb583efab16e92eb4eddddeb52" style="width: 100.0%; height: 100.0%;">2017/1/19|Unknown</div>`)[0];
+                popup_ad9c75912ce22a1a97964c6eec644383.setContent(html_4d2e7edb583efab16e92eb4eddddeb52);
+            
+        
+
+        marker_efa010606ef4a878ff3c59affeb19167.bindPopup(popup_ad9c75912ce22a1a97964c6eec644383)
+        ;
+
+        
+    
+    
+            var marker_cd5920c2c1dcf601653137c3a7270a22 = L.marker(
+                [36.201721, 37.143521],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_ef466a4eb19c847b4143ef068f852238 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa6d002fd5685b338f3386db47035673 = $(`<div id="html_aa6d002fd5685b338f3386db47035673" style="width: 100.0%; height: 100.0%;">2017/1/19|Unknown</div>`)[0];
+                popup_ef466a4eb19c847b4143ef068f852238.setContent(html_aa6d002fd5685b338f3386db47035673);
+            
+        
+
+        marker_cd5920c2c1dcf601653137c3a7270a22.bindPopup(popup_ef466a4eb19c847b4143ef068f852238)
+        ;
+
+        
+    
+    
+            var marker_52c45c34140d7c650c59e3481a18340c = L.marker(
+                [36.409167, 37.578056],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_9b8f46143901060816962c1e52ef9703 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8f5881e63054dd1e33963d6274e8d60 = $(`<div id="html_c8f5881e63054dd1e33963d6274e8d60" style="width: 100.0%; height: 100.0%;">2017/1/20|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_9b8f46143901060816962c1e52ef9703.setContent(html_c8f5881e63054dd1e33963d6274e8d60);
+            
+        
+
+        marker_52c45c34140d7c650c59e3481a18340c.bindPopup(popup_9b8f46143901060816962c1e52ef9703)
+        ;
+
+        
+    
+    
+            var marker_14a9b4ca3f0da7d78cc72ab2acfc83b5 = L.marker(
+                [34.520091, 37.50801],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_ca1f29eb6b159213f7398199d220f9ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f16bd956c0877eb24e475aa9ec0e9f80 = $(`<div id="html_f16bd956c0877eb24e475aa9ec0e9f80" style="width: 100.0%; height: 100.0%;">2017/1/20|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_ca1f29eb6b159213f7398199d220f9ed.setContent(html_f16bd956c0877eb24e475aa9ec0e9f80);
+            
+        
+
+        marker_14a9b4ca3f0da7d78cc72ab2acfc83b5.bindPopup(popup_ca1f29eb6b159213f7398199d220f9ed)
+        ;
+
+        
+    
+    
+            var marker_9d9261150d1a309adbf5610f72200ecc = L.marker(
+                [33.325054, 38.659325],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_0bbd646fffd4f36956f27e08dd4c9080 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc6860a5370e10ab641cc96069ba01f3 = $(`<div id="html_fc6860a5370e10ab641cc96069ba01f3" style="width: 100.0%; height: 100.0%;">2017/1/21|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_0bbd646fffd4f36956f27e08dd4c9080.setContent(html_fc6860a5370e10ab641cc96069ba01f3);
+            
+        
+
+        marker_9d9261150d1a309adbf5610f72200ecc.bindPopup(popup_0bbd646fffd4f36956f27e08dd4c9080)
+        ;
+
+        
+    
+    
+            var marker_6ae5b6b8938795c598c3afbd5e2ee546 = L.marker(
+                [36.528556, 37.954092],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_e1903111257c0a317ef842db936e4885 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bf4125bccd2259a6b94fb643a04d963 = $(`<div id="html_6bf4125bccd2259a6b94fb643a04d963" style="width: 100.0%; height: 100.0%;">2017/1/21|Kurdistan Workers' Party (PKK)</div>`)[0];
+                popup_e1903111257c0a317ef842db936e4885.setContent(html_6bf4125bccd2259a6b94fb643a04d963);
+            
+        
+
+        marker_6ae5b6b8938795c598c3afbd5e2ee546.bindPopup(popup_e1903111257c0a317ef842db936e4885)
+        ;
+
+        
+    
+    
+            var marker_5ca6ab622041e5a7af6c9034dfacce14 = L.marker(
+                [33.311511, 35.918564],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_dca4c5f62478fb586ab40f06d0eade3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98c43f0fb324080c8838366b3109c0af = $(`<div id="html_98c43f0fb324080c8838366b3109c0af" style="width: 100.0%; height: 100.0%;">2017/1/8|Al-Nusrah Front</div>`)[0];
+                popup_dca4c5f62478fb586ab40f06d0eade3d.setContent(html_98c43f0fb324080c8838366b3109c0af);
+            
+        
+
+        marker_5ca6ab622041e5a7af6c9034dfacce14.bindPopup(popup_dca4c5f62478fb586ab40f06d0eade3d)
+        ;
+
+        
+    
+    
+            var marker_b45d5a4ba8d3426b1d69db42b724e33d = L.marker(
+                [35.82688, 36.695722],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_6972971a4badbb8c16508c9c63a3ff85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5578b40ba99328b8ad7d5eddace3f7a = $(`<div id="html_e5578b40ba99328b8ad7d5eddace3f7a" style="width: 100.0%; height: 100.0%;">2017/1/24|Al-Nusrah Front</div>`)[0];
+                popup_6972971a4badbb8c16508c9c63a3ff85.setContent(html_e5578b40ba99328b8ad7d5eddace3f7a);
+            
+        
+
+        marker_b45d5a4ba8d3426b1d69db42b724e33d.bindPopup(popup_6972971a4badbb8c16508c9c63a3ff85)
+        ;
+
+        
+    
+    
+            var marker_28ac498bda86e80a3bc4b8f18cb6c73f = L.marker(
+                [33.643199, 36.690445],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_56707cf41a972609c1d553fdfccda549 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ac30a3695c68429ac07d0398fe92713 = $(`<div id="html_6ac30a3695c68429ac07d0398fe92713" style="width: 100.0%; height: 100.0%;">2017/1/29|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_56707cf41a972609c1d553fdfccda549.setContent(html_6ac30a3695c68429ac07d0398fe92713);
+            
+        
+
+        marker_28ac498bda86e80a3bc4b8f18cb6c73f.bindPopup(popup_56707cf41a972609c1d553fdfccda549)
+        ;
+
+        
+    
+    
+            var marker_93d733980fc35bd76bcf043701cb4ff0 = L.marker(
+                [33.528491, 36.38609],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_5994c46b746191059c8f39f7164319a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2f185fbdfd505b641c619244d927ab8 = $(`<div id="html_c2f185fbdfd505b641c619244d927ab8" style="width: 100.0%; height: 100.0%;">2017/2/7|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_5994c46b746191059c8f39f7164319a8.setContent(html_c2f185fbdfd505b641c619244d927ab8);
+            
+        
+
+        marker_93d733980fc35bd76bcf043701cb4ff0.bindPopup(popup_5994c46b746191059c8f39f7164319a8)
+        ;
+
+        
+    
+    
+            var marker_9f41b293b74841799be64b52b9c65757 = L.marker(
+                [36.201721, 37.143521],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_2e3e353172451489974f0022eb972eb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_849f404eafca532f41e078f3b3f5b719 = $(`<div id="html_849f404eafca532f41e078f3b3f5b719" style="width: 100.0%; height: 100.0%;">2017/2/8|Unknown</div>`)[0];
+                popup_2e3e353172451489974f0022eb972eb0.setContent(html_849f404eafca532f41e078f3b3f5b719);
+            
+        
+
+        marker_9f41b293b74841799be64b52b9c65757.bindPopup(popup_2e3e353172451489974f0022eb972eb0)
+        ;
+
+        
+    
+    
+            var marker_222ca5b036917ce523efeef6a4366731 = L.marker(
+                [34.717704, 36.722823],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_0cbecc5c5336805f2b7c5b6cd6e66910 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0869f50ee3073716de14ece6f8909ad3 = $(`<div id="html_0869f50ee3073716de14ece6f8909ad3" style="width: 100.0%; height: 100.0%;">2017/2/10|Unknown</div>`)[0];
+                popup_0cbecc5c5336805f2b7c5b6cd6e66910.setContent(html_0869f50ee3073716de14ece6f8909ad3);
+            
+        
+
+        marker_222ca5b036917ce523efeef6a4366731.bindPopup(popup_0cbecc5c5336805f2b7c5b6cd6e66910)
+        ;
+
+        
+    
+    
+            var marker_e3236699fea172f1283cdfbef7a6cc4c = L.marker(
+                [32.622334, 36.103757],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_884dd81bfe5fb3608c18a208094b1e47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f67e655f72e0c1b5caa8342d597c5338 = $(`<div id="html_f67e655f72e0c1b5caa8342d597c5338" style="width: 100.0%; height: 100.0%;">2017/2/12|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_884dd81bfe5fb3608c18a208094b1e47.setContent(html_f67e655f72e0c1b5caa8342d597c5338);
+            
+        
+
+        marker_e3236699fea172f1283cdfbef7a6cc4c.bindPopup(popup_884dd81bfe5fb3608c18a208094b1e47)
+        ;
+
+        
+    
+    
+            var marker_cfdb6ca3ef3dcdd16ef7dda0e8be52fc = L.marker(
+                [32.622334, 36.103757],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_f4dff00f4197a8ac82fbbafa886fe23e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9366170e70a16d177dcaad95d81e1a5 = $(`<div id="html_e9366170e70a16d177dcaad95d81e1a5" style="width: 100.0%; height: 100.0%;">2017/2/12|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_f4dff00f4197a8ac82fbbafa886fe23e.setContent(html_e9366170e70a16d177dcaad95d81e1a5);
+            
+        
+
+        marker_cfdb6ca3ef3dcdd16ef7dda0e8be52fc.bindPopup(popup_f4dff00f4197a8ac82fbbafa886fe23e)
+        ;
+
+        
+    
+    
+            var marker_f94fe6a14c2a81cc6c3394a06e8da58d = L.marker(
+                [32.622334, 36.103757],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_914030ec7a944d9f2fe7bf77929dfede = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0eacbcb4cef1db5cb182ca1d45c521c = $(`<div id="html_b0eacbcb4cef1db5cb182ca1d45c521c" style="width: 100.0%; height: 100.0%;">2017/2/12|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_914030ec7a944d9f2fe7bf77929dfede.setContent(html_b0eacbcb4cef1db5cb182ca1d45c521c);
+            
+        
+
+        marker_f94fe6a14c2a81cc6c3394a06e8da58d.bindPopup(popup_914030ec7a944d9f2fe7bf77929dfede)
+        ;
+
+        
+    
+    
+            var marker_b7fb127370e632ffda8b1ab40f8bfe39 = L.marker(
+                [36.366198, 37.512275],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_e403b1ea24acceb17e8abf9e4e5ac421 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d59a30fb11dabe24eae660f65c45258 = $(`<div id="html_9d59a30fb11dabe24eae660f65c45258" style="width: 100.0%; height: 100.0%;">2017/2/12|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_e403b1ea24acceb17e8abf9e4e5ac421.setContent(html_9d59a30fb11dabe24eae660f65c45258);
+            
+        
+
+        marker_b7fb127370e632ffda8b1ab40f8bfe39.bindPopup(popup_e403b1ea24acceb17e8abf9e4e5ac421)
+        ;
+
+        
+    
+    
+            var marker_8f7dd12d7fbfafe02c9259115e26a175 = L.marker(
+                [35.781292, 37.499216],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_92346016de3cc73b567ff0efa2a45a3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d726c9d3f5624957dfe2075de1fd699 = $(`<div id="html_4d726c9d3f5624957dfe2075de1fd699" style="width: 100.0%; height: 100.0%;">2017/2/11|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_92346016de3cc73b567ff0efa2a45a3d.setContent(html_4d726c9d3f5624957dfe2075de1fd699);
+            
+        
+
+        marker_8f7dd12d7fbfafe02c9259115e26a175.bindPopup(popup_92346016de3cc73b567ff0efa2a45a3d)
+        ;
+
+        
+    
+    
+            var marker_9090b930377cf634c8cbb49f97de959b = L.marker(
+                [36.202105, 37.13426],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_2fcb20cd365f9bed96b908d36df5267a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44263c20eb199790d780bf631b302f3c = $(`<div id="html_44263c20eb199790d780bf631b302f3c" style="width: 100.0%; height: 100.0%;">2017/2/11|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_2fcb20cd365f9bed96b908d36df5267a.setContent(html_44263c20eb199790d780bf631b302f3c);
+            
+        
+
+        marker_9090b930377cf634c8cbb49f97de959b.bindPopup(popup_2fcb20cd365f9bed96b908d36df5267a)
+        ;
+
+        
+    
+    
+            var marker_b39d12ebbfead1a760881b11bd9afb7a = L.marker(
+                [36.366198, 37.512275],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_7607c5f2898abb1dd2c3eaa1be5df29f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aff6dd1861593182c7de8df7f2ed1767 = $(`<div id="html_aff6dd1861593182c7de8df7f2ed1767" style="width: 100.0%; height: 100.0%;">2017/2/15|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_7607c5f2898abb1dd2c3eaa1be5df29f.setContent(html_aff6dd1861593182c7de8df7f2ed1767);
+            
+        
+
+        marker_b39d12ebbfead1a760881b11bd9afb7a.bindPopup(popup_7607c5f2898abb1dd2c3eaa1be5df29f)
+        ;
+
+        
+    
+    
+            var marker_f770344e4613f2ea2c9a63c2ec952534 = L.marker(
+                [36.585437, 37.04692],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_18343976cf1648f663f2bdacd1ea9570 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f81426dfe4bf865e67bac61220f6ec2 = $(`<div id="html_6f81426dfe4bf865e67bac61220f6ec2" style="width: 100.0%; height: 100.0%;">2017/2/17|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_18343976cf1648f663f2bdacd1ea9570.setContent(html_6f81426dfe4bf865e67bac61220f6ec2);
+            
+        
+
+        marker_f770344e4613f2ea2c9a63c2ec952534.bindPopup(popup_18343976cf1648f663f2bdacd1ea9570)
+        ;
+
+        
+    
+    
+            var marker_9e12cadd8b4e3e0aaf2702acd1f42257 = L.marker(
+                [35.982763, 36.704648],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_1a1adbf07a61d4ec797b744b01004379 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31ac5ffef12016043dee0ab6119b30ad = $(`<div id="html_31ac5ffef12016043dee0ab6119b30ad" style="width: 100.0%; height: 100.0%;">2017/2/20|Unknown</div>`)[0];
+                popup_1a1adbf07a61d4ec797b744b01004379.setContent(html_31ac5ffef12016043dee0ab6119b30ad);
+            
+        
+
+        marker_9e12cadd8b4e3e0aaf2702acd1f42257.bindPopup(popup_1a1adbf07a61d4ec797b744b01004379)
+        ;
+
+        
+    
+    
+            var marker_ea95a1e9c6639958f8fd8657bd719d99 = L.marker(
+                [35.990087, 36.677222],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_5704e90bce9490de91b0158927a13411 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6e84f839189692fcaa94a4013ce646f = $(`<div id="html_b6e84f839189692fcaa94a4013ce646f" style="width: 100.0%; height: 100.0%;">2017/2/20|Unknown</div>`)[0];
+                popup_5704e90bce9490de91b0158927a13411.setContent(html_b6e84f839189692fcaa94a4013ce646f);
+            
+        
+
+        marker_ea95a1e9c6639958f8fd8657bd719d99.bindPopup(popup_5704e90bce9490de91b0158927a13411)
+        ;
+
+        
+    
+    
+            var marker_86b2c8786bc2de51bce171827d61c92b = L.marker(
+                [32.835646, 35.970169],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_b9f5c90905c1cd9992c23d95dcf9c088 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77b04ddc4c46891dac47636576355b96 = $(`<div id="html_77b04ddc4c46891dac47636576355b96" style="width: 100.0%; height: 100.0%;">2017/2/21|Khaled Ibn al-Walid Army</div>`)[0];
+                popup_b9f5c90905c1cd9992c23d95dcf9c088.setContent(html_77b04ddc4c46891dac47636576355b96);
+            
+        
+
+        marker_86b2c8786bc2de51bce171827d61c92b.bindPopup(popup_b9f5c90905c1cd9992c23d95dcf9c088)
+        ;
+
+        
+    
+    
+            var marker_326ea362043d6ea1e4f02e6234828331 = L.marker(
+                [35.992851, 36.512055],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_2153ea97c48d0a6bcc324599a9996c98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73715e989060b9c8d066b380ee728f9d = $(`<div id="html_73715e989060b9c8d066b380ee728f9d" style="width: 100.0%; height: 100.0%;">2017/2/23|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_2153ea97c48d0a6bcc324599a9996c98.setContent(html_73715e989060b9c8d066b380ee728f9d);
+            
+        
+
+        marker_326ea362043d6ea1e4f02e6234828331.bindPopup(popup_2153ea97c48d0a6bcc324599a9996c98)
+        ;
+
+        
+    
+    
+            var marker_65a0ff70feed7169d81a4d9ac2a13cd7 = L.marker(
+                [36.432886, 37.442128],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_4b6bdf15c2b6633ffd1dcc220651e6b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b542b711fc0e8bab7b3a0a932c6a0c43 = $(`<div id="html_b542b711fc0e8bab7b3a0a932c6a0c43" style="width: 100.0%; height: 100.0%;">2017/2/24|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_4b6bdf15c2b6633ffd1dcc220651e6b6.setContent(html_b542b711fc0e8bab7b3a0a932c6a0c43);
+            
+        
+
+        marker_65a0ff70feed7169d81a4d9ac2a13cd7.bindPopup(popup_4b6bdf15c2b6633ffd1dcc220651e6b6)
+        ;
+
+        
+    
+    
+            var marker_00d519999e2cdfca239ea14b80f9b06e = L.marker(
+                [36.366198, 37.512275],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_cd3b8f0cc1f52cab97c5363d94952ea7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a57c6a44e2cb16913f7de3cd3d50896 = $(`<div id="html_3a57c6a44e2cb16913f7de3cd3d50896" style="width: 100.0%; height: 100.0%;">2017/2/24|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_cd3b8f0cc1f52cab97c5363d94952ea7.setContent(html_3a57c6a44e2cb16913f7de3cd3d50896);
+            
+        
+
+        marker_00d519999e2cdfca239ea14b80f9b06e.bindPopup(popup_cd3b8f0cc1f52cab97c5363d94952ea7)
+        ;
+
+        
+    
+    
+            var marker_3137106c80f3a8a4a4db9ac649d7a903 = L.marker(
+                [34.717704, 36.722823],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_4238138482f50069c8ddf2dd4b98eeb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b7546db4734c60cf3320dc704c096f9 = $(`<div id="html_3b7546db4734c60cf3320dc704c096f9" style="width: 100.0%; height: 100.0%;">2017/2/25|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_4238138482f50069c8ddf2dd4b98eeb5.setContent(html_3b7546db4734c60cf3320dc704c096f9);
+            
+        
+
+        marker_3137106c80f3a8a4a4db9ac649d7a903.bindPopup(popup_4238138482f50069c8ddf2dd4b98eeb5)
+        ;
+
+        
+    
+    
+            var marker_947e99b3a7bfb7dfc2034df42bfef5b2 = L.marker(
+                [34.717704, 36.722823],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_9e6ee3c0f0492fac1f5140d56edbf610 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6f1100f0a815b9dbd9f06ac2e8f41b2 = $(`<div id="html_d6f1100f0a815b9dbd9f06ac2e8f41b2" style="width: 100.0%; height: 100.0%;">2017/2/25|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_9e6ee3c0f0492fac1f5140d56edbf610.setContent(html_d6f1100f0a815b9dbd9f06ac2e8f41b2);
+            
+        
+
+        marker_947e99b3a7bfb7dfc2034df42bfef5b2.bindPopup(popup_9e6ee3c0f0492fac1f5140d56edbf610)
+        ;
+
+        
+    
+    
+            var marker_c21dfdafecc0c25fe82386c53311ccc1 = L.marker(
+                [34.570353, 37.194397],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_af4c6f92216a711773efedcd7a08eb27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7bad83ca2194d097c422182d1df48ac = $(`<div id="html_f7bad83ca2194d097c422182d1df48ac" style="width: 100.0%; height: 100.0%;">2017/2/25|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_af4c6f92216a711773efedcd7a08eb27.setContent(html_f7bad83ca2194d097c422182d1df48ac);
+            
+        
+
+        marker_c21dfdafecc0c25fe82386c53311ccc1.bindPopup(popup_af4c6f92216a711773efedcd7a08eb27)
+        ;
+
+        
+    
+    
+            var marker_a928ddc1e9a8f93ff1b134d43f2d5e13 = L.marker(
+                [34.60298, 37.086326],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_c108c130f3ff64994ff2a78b08d2602e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31f2893cda83e28794d9c39f913dc356 = $(`<div id="html_31f2893cda83e28794d9c39f913dc356" style="width: 100.0%; height: 100.0%;">2017/2/25|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_c108c130f3ff64994ff2a78b08d2602e.setContent(html_31f2893cda83e28794d9c39f913dc356);
+            
+        
+
+        marker_a928ddc1e9a8f93ff1b134d43f2d5e13.bindPopup(popup_c108c130f3ff64994ff2a78b08d2602e)
+        ;
+
+        
+    
+    
+            var marker_741b9c1d7542a6a9bf7603aec53b340b = L.marker(
+                [33.516729, 36.954107],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_347fcb6b407e57441f7adf337b23e1da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc137298132b8782428ee0ee1c419756 = $(`<div id="html_fc137298132b8782428ee0ee1c419756" style="width: 100.0%; height: 100.0%;">2017/2/26|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_347fcb6b407e57441f7adf337b23e1da.setContent(html_fc137298132b8782428ee0ee1c419756);
+            
+        
+
+        marker_741b9c1d7542a6a9bf7603aec53b340b.bindPopup(popup_347fcb6b407e57441f7adf337b23e1da)
+        ;
+
+        
+    
+    
+            var marker_51bd7336c9098f3f946b96014ea6ee3f = L.marker(
+                [36.156527, 37.707882],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_9e05a0035c56861ed88a3bbf1be4a489 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dfcf8bed21f8bf4d4f111fa3bd3d613 = $(`<div id="html_1dfcf8bed21f8bf4d4f111fa3bd3d613" style="width: 100.0%; height: 100.0%;">2017/3/4|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_9e05a0035c56861ed88a3bbf1be4a489.setContent(html_1dfcf8bed21f8bf4d4f111fa3bd3d613);
+            
+        
+
+        marker_51bd7336c9098f3f946b96014ea6ee3f.bindPopup(popup_9e05a0035c56861ed88a3bbf1be4a489)
+        ;
+
+        
+    
+    
+            var marker_0ad13ea8934eb53079c57d96b2802896 = L.marker(
+                [36.585437, 37.04692],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_29ef006edb45674e8d0fd4ad25a9dc4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ba460cdaeff0e9644f25169b006ed4a = $(`<div id="html_0ba460cdaeff0e9644f25169b006ed4a" style="width: 100.0%; height: 100.0%;">2017/3/5|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_29ef006edb45674e8d0fd4ad25a9dc4b.setContent(html_0ba460cdaeff0e9644f25169b006ed4a);
+            
+        
+
+        marker_0ad13ea8934eb53079c57d96b2802896.bindPopup(popup_29ef006edb45674e8d0fd4ad25a9dc4b)
+        ;
+
+        
+    
+    
+            var marker_efb7d160db1bab8f99b1025ed931baf1 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_ac3a74190218eb0dae72a708e9df5596 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97d5148df6d27def302d064f6fa0c9db = $(`<div id="html_97d5148df6d27def302d064f6fa0c9db" style="width: 100.0%; height: 100.0%;">2017/3/11|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_ac3a74190218eb0dae72a708e9df5596.setContent(html_97d5148df6d27def302d064f6fa0c9db);
+            
+        
+
+        marker_efb7d160db1bab8f99b1025ed931baf1.bindPopup(popup_ac3a74190218eb0dae72a708e9df5596)
+        ;
+
+        
+    
+    
+            var marker_c0cd34447e5134efeae82b3e4e0f5819 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_cf24b08c14d4026988eb0546253a536f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30f909401a643985b2e4b10cbeb5c95c = $(`<div id="html_30f909401a643985b2e4b10cbeb5c95c" style="width: 100.0%; height: 100.0%;">2017/3/11|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_cf24b08c14d4026988eb0546253a536f.setContent(html_30f909401a643985b2e4b10cbeb5c95c);
+            
+        
+
+        marker_c0cd34447e5134efeae82b3e4e0f5819.bindPopup(popup_cf24b08c14d4026988eb0546253a536f)
+        ;
+
+        
+    
+    
+            var marker_3cc47c53d585216835714174f8af220b = L.marker(
+                [34.558524, 38.293671],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_e3e22a7401a1af23c9a843a5fd36d69f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74c7215db3b752283e5d907bd3476632 = $(`<div id="html_74c7215db3b752283e5d907bd3476632" style="width: 100.0%; height: 100.0%;">2017/3/13|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_e3e22a7401a1af23c9a843a5fd36d69f.setContent(html_74c7215db3b752283e5d907bd3476632);
+            
+        
+
+        marker_3cc47c53d585216835714174f8af220b.bindPopup(popup_e3e22a7401a1af23c9a843a5fd36d69f)
+        ;
+
+        
+    
+    
+            var marker_073f9c186052ba8e38ae53459a775ebc = L.marker(
+                [34.717704, 36.722823],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_43785b84fa4506266c20a8779bab9dbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50202b59361493fc1c7ffecb426b9a32 = $(`<div id="html_50202b59361493fc1c7ffecb426b9a32" style="width: 100.0%; height: 100.0%;">2017/3/14|Unknown</div>`)[0];
+                popup_43785b84fa4506266c20a8779bab9dbe.setContent(html_50202b59361493fc1c7ffecb426b9a32);
+            
+        
+
+        marker_073f9c186052ba8e38ae53459a775ebc.bindPopup(popup_43785b84fa4506266c20a8779bab9dbe)
+        ;
+
+        
+    
+    
+            var marker_7a3e62a108a33a1a4ec43db429586866 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a287aa1a84e9d685cba8bdd6aa75d0c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28e4434ee3f345aeaf90085f8a1c06ac = $(`<div id="html_28e4434ee3f345aeaf90085f8a1c06ac" style="width: 100.0%; height: 100.0%;">2017/3/15|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_a287aa1a84e9d685cba8bdd6aa75d0c0.setContent(html_28e4434ee3f345aeaf90085f8a1c06ac);
+            
+        
+
+        marker_7a3e62a108a33a1a4ec43db429586866.bindPopup(popup_a287aa1a84e9d685cba8bdd6aa75d0c0)
+        ;
+
+        
+    
+    
+            var marker_a58974d62a3a7bc04a3a787bb19e537b = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_cc3a1fb4931f4799a407c56ccdacb876 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_537bcd3b70cb1bca1acfbca5a95877d2 = $(`<div id="html_537bcd3b70cb1bca1acfbca5a95877d2" style="width: 100.0%; height: 100.0%;">2017/3/15|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_cc3a1fb4931f4799a407c56ccdacb876.setContent(html_537bcd3b70cb1bca1acfbca5a95877d2);
+            
+        
+
+        marker_a58974d62a3a7bc04a3a787bb19e537b.bindPopup(popup_cc3a1fb4931f4799a407c56ccdacb876)
+        ;
+
+        
+    
+    
+            var marker_d5c0e501ff4643c68377b33ac4919a62 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_5530a736d7dcdff9371a88d6a3b2c50a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e2b4e82a4ab5e38de19e9733c7b3ab2 = $(`<div id="html_2e2b4e82a4ab5e38de19e9733c7b3ab2" style="width: 100.0%; height: 100.0%;">2017/3/19|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_5530a736d7dcdff9371a88d6a3b2c50a.setContent(html_2e2b4e82a4ab5e38de19e9733c7b3ab2);
+            
+        
+
+        marker_d5c0e501ff4643c68377b33ac4919a62.bindPopup(popup_5530a736d7dcdff9371a88d6a3b2c50a)
+        ;
+
+        
+    
+    
+            var marker_1a0571954e2d32d0133f63c7e4a61e29 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_83e09ed4a960c561110f03d5a61ae50e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_003a4f1287e8696429c41ae442137df2 = $(`<div id="html_003a4f1287e8696429c41ae442137df2" style="width: 100.0%; height: 100.0%;">2017/3/19|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_83e09ed4a960c561110f03d5a61ae50e.setContent(html_003a4f1287e8696429c41ae442137df2);
+            
+        
+
+        marker_1a0571954e2d32d0133f63c7e4a61e29.bindPopup(popup_83e09ed4a960c561110f03d5a61ae50e)
+        ;
+
+        
+    
+    
+            var marker_b8f022e22537fbb3e20c261b5be80c97 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_ce6319f961b447e39137bca8859f8669 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d49b2a5a144867ce0ad9cf27cb9e8bf2 = $(`<div id="html_d49b2a5a144867ce0ad9cf27cb9e8bf2" style="width: 100.0%; height: 100.0%;">2017/3/21|Free Syrian Army</div>`)[0];
+                popup_ce6319f961b447e39137bca8859f8669.setContent(html_d49b2a5a144867ce0ad9cf27cb9e8bf2);
+            
+        
+
+        marker_b8f022e22537fbb3e20c261b5be80c97.bindPopup(popup_ce6319f961b447e39137bca8859f8669)
+        ;
+
+        
+    
+    
+            var marker_e84a898b6029593bfb3d7e1f218e1bcc = L.marker(
+                [35.281712, 36.731991],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_6df670a6b692d9dc2dee913f8871e3ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30588b2e50b84c3a57b235b15d0fbe39 = $(`<div id="html_30588b2e50b84c3a57b235b15d0fbe39" style="width: 100.0%; height: 100.0%;">2017/3/21|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_6df670a6b692d9dc2dee913f8871e3ec.setContent(html_30588b2e50b84c3a57b235b15d0fbe39);
+            
+        
+
+        marker_e84a898b6029593bfb3d7e1f218e1bcc.bindPopup(popup_6df670a6b692d9dc2dee913f8871e3ec)
+        ;
+
+        
+    
+    
+            var marker_22676fa2bb2ca6f6b71a25f8366ae5cd = L.marker(
+                [35.288154, 36.741528],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_eb05919f4701de7226a9dec76b07fc7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_105b8e240962eaf3e697a2bd52b91165 = $(`<div id="html_105b8e240962eaf3e697a2bd52b91165" style="width: 100.0%; height: 100.0%;">2017/3/21|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_eb05919f4701de7226a9dec76b07fc7c.setContent(html_105b8e240962eaf3e697a2bd52b91165);
+            
+        
+
+        marker_22676fa2bb2ca6f6b71a25f8366ae5cd.bindPopup(popup_eb05919f4701de7226a9dec76b07fc7c)
+        ;
+
+        
+    
+    
+            var marker_6f10f1d1ea4f8e1c9d7f4a7953381aca = L.marker(
+                [35.252606, 36.75617],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_e14e3ff899ef4a66230ecfe3a4aeab24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8da620149ca6e621bb6bdee05aa79ce4 = $(`<div id="html_8da620149ca6e621bb6bdee05aa79ce4" style="width: 100.0%; height: 100.0%;">2017/3/21|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_e14e3ff899ef4a66230ecfe3a4aeab24.setContent(html_8da620149ca6e621bb6bdee05aa79ce4);
+            
+        
+
+        marker_6f10f1d1ea4f8e1c9d7f4a7953381aca.bindPopup(popup_e14e3ff899ef4a66230ecfe3a4aeab24)
+        ;
+
+        
+    
+    
+            var marker_b596dccd9f660747cda35f5d4835669e = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_6eeea93e7fe678a7f22997635cbb7bb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d4b2fed2c0c3d6854aaa785b15c7f87 = $(`<div id="html_8d4b2fed2c0c3d6854aaa785b15c7f87" style="width: 100.0%; height: 100.0%;">2017/3/21|Free Syrian Army</div>`)[0];
+                popup_6eeea93e7fe678a7f22997635cbb7bb6.setContent(html_8d4b2fed2c0c3d6854aaa785b15c7f87);
+            
+        
+
+        marker_b596dccd9f660747cda35f5d4835669e.bindPopup(popup_6eeea93e7fe678a7f22997635cbb7bb6)
+        ;
+
+        
+    
+    
+            var marker_e270e892104520bb134e08bcdf9e616d = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_49b13ba127c45670a44bafe94577a729 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2aa7acf23f8e16e53aab8523564258c2 = $(`<div id="html_2aa7acf23f8e16e53aab8523564258c2" style="width: 100.0%; height: 100.0%;">2017/3/21|Free Syrian Army</div>`)[0];
+                popup_49b13ba127c45670a44bafe94577a729.setContent(html_2aa7acf23f8e16e53aab8523564258c2);
+            
+        
+
+        marker_e270e892104520bb134e08bcdf9e616d.bindPopup(popup_49b13ba127c45670a44bafe94577a729)
+        ;
+
+        
+    
+    
+            var marker_12f084c06693d40ebb3e9aa5dfda4371 = L.marker(
+                [35.36157, 35.927156],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_c6e68f0ea381ab34823da29c839229dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec30ec572d00eaebe12a4da72b738ecd = $(`<div id="html_ec30ec572d00eaebe12a4da72b738ecd" style="width: 100.0%; height: 100.0%;">2017/3/22|Unknown</div>`)[0];
+                popup_c6e68f0ea381ab34823da29c839229dd.setContent(html_ec30ec572d00eaebe12a4da72b738ecd);
+            
+        
+
+        marker_12f084c06693d40ebb3e9aa5dfda4371.bindPopup(popup_c6e68f0ea381ab34823da29c839229dd)
+        ;
+
+        
+    
+    
+            var marker_7c1ef6885f07a03ca7df40194612acd6 = L.marker(
+                [35.450874, 36.054157],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_4ab1fa3e609389756429588830535b02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8262c498c7ccbb68149757159d1b4829 = $(`<div id="html_8262c498c7ccbb68149757159d1b4829" style="width: 100.0%; height: 100.0%;">2017/3/22|Unknown</div>`)[0];
+                popup_4ab1fa3e609389756429588830535b02.setContent(html_8262c498c7ccbb68149757159d1b4829);
+            
+        
+
+        marker_7c1ef6885f07a03ca7df40194612acd6.bindPopup(popup_4ab1fa3e609389756429588830535b02)
+        ;
+
+        
+    
+    
+            var marker_c3bf12c5f5f78965179a4ba2530655f4 = L.marker(
+                [36.201721, 37.143521],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_be8d0d679f43bf4cb43890c107c23101 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d232ce7ca5159c30f1c0e08c778530c = $(`<div id="html_1d232ce7ca5159c30f1c0e08c778530c" style="width: 100.0%; height: 100.0%;">2017/3/23|Unknown</div>`)[0];
+                popup_be8d0d679f43bf4cb43890c107c23101.setContent(html_1d232ce7ca5159c30f1c0e08c778530c);
+            
+        
+
+        marker_c3bf12c5f5f78965179a4ba2530655f4.bindPopup(popup_be8d0d679f43bf4cb43890c107c23101)
+        ;
+
+        
+    
+    
+            var marker_a86cba8252f6a0065e11e3c5a20c7451 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_e250e7ae296b4fb376d66e76ba53edf1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cc158affbc5d309efc2c1f8541ccd75 = $(`<div id="html_2cc158affbc5d309efc2c1f8541ccd75" style="width: 100.0%; height: 100.0%;">2017/3/23|Free Syrian Army</div>`)[0];
+                popup_e250e7ae296b4fb376d66e76ba53edf1.setContent(html_2cc158affbc5d309efc2c1f8541ccd75);
+            
+        
+
+        marker_a86cba8252f6a0065e11e3c5a20c7451.bindPopup(popup_e250e7ae296b4fb376d66e76ba53edf1)
+        ;
+
+        
+    
+    
+            var marker_bc0214b62aaaa5b191492d930512c19d = L.marker(
+                [36.208841, 36.71998],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_bfe74c43ba470671cf8e52e2da9a9ae8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e6e7b3d676e111ddcd89e69da54b26e = $(`<div id="html_5e6e7b3d676e111ddcd89e69da54b26e" style="width: 100.0%; height: 100.0%;">2017/3/24|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_bfe74c43ba470671cf8e52e2da9a9ae8.setContent(html_5e6e7b3d676e111ddcd89e69da54b26e);
+            
+        
+
+        marker_bc0214b62aaaa5b191492d930512c19d.bindPopup(popup_bfe74c43ba470671cf8e52e2da9a9ae8)
+        ;
+
+        
+    
+    
+            var marker_b8ed3c15a7c391880aad210b7e54f965 = L.marker(
+                [36.585437, 37.04692],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_485b16507a3b224b3edce0641d031ed6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ead449b930ad0a9adec7e889602155c = $(`<div id="html_1ead449b930ad0a9adec7e889602155c" style="width: 100.0%; height: 100.0%;">2017/3/25|Unknown</div>`)[0];
+                popup_485b16507a3b224b3edce0641d031ed6.setContent(html_1ead449b930ad0a9adec7e889602155c);
+            
+        
+
+        marker_b8ed3c15a7c391880aad210b7e54f965.bindPopup(popup_485b16507a3b224b3edce0641d031ed6)
+        ;
+
+        
+    
+    
+            var marker_ef711dab8453d0c2c4c770929fdfb0db = L.marker(
+                [35.803182, 35.938566],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_b412428e80e21d1d983df281ae6690c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a75c06992fcf4637f7b30bc0a7ee792c = $(`<div id="html_a75c06992fcf4637f7b30bc0a7ee792c" style="width: 100.0%; height: 100.0%;">2017/3/27|Ahrar al-Sham</div>`)[0];
+                popup_b412428e80e21d1d983df281ae6690c3.setContent(html_a75c06992fcf4637f7b30bc0a7ee792c);
+            
+        
+
+        marker_ef711dab8453d0c2c4c770929fdfb0db.bindPopup(popup_b412428e80e21d1d983df281ae6690c3)
+        ;
+
+        
+    
+    
+            var marker_ad3631d5d30f8fbcce3814a99809b9b1 = L.marker(
+                [34.717704, 36.722823],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a979c46a79c6d521b0e50c44711a537a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd86a5d30d7e4674741880a13efb6246 = $(`<div id="html_bd86a5d30d7e4674741880a13efb6246" style="width: 100.0%; height: 100.0%;">2017/3/29|Unknown</div>`)[0];
+                popup_a979c46a79c6d521b0e50c44711a537a.setContent(html_bd86a5d30d7e4674741880a13efb6246);
+            
+        
+
+        marker_ad3631d5d30f8fbcce3814a99809b9b1.bindPopup(popup_a979c46a79c6d521b0e50c44711a537a)
+        ;
+
+        
+    
+    
+            var marker_cd62e26f3f3ecc8982484a6fc70d0e05 = L.marker(
+                [35.015778, 40.455211],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_fef732798218a0d65eef24a2562d0b7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_190acbc81ea917d791cf42950ffcaf23 = $(`<div id="html_190acbc81ea917d791cf42950ffcaf23" style="width: 100.0%; height: 100.0%;">2017/4/5|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_fef732798218a0d65eef24a2562d0b7a.setContent(html_190acbc81ea917d791cf42950ffcaf23);
+            
+        
+
+        marker_cd62e26f3f3ecc8982484a6fc70d0e05.bindPopup(popup_fef732798218a0d65eef24a2562d0b7a)
+        ;
+
+        
+    
+    
+            var marker_6b857c7777c6b5ac41342f8721742eec = L.marker(
+                [35.252606, 36.75617],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_4b8868743dfd31445eda98edecfb7152 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_244b19d2d695862fa499a2a1abb13d4b = $(`<div id="html_244b19d2d695862fa499a2a1abb13d4b" style="width: 100.0%; height: 100.0%;">2017/4/6|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_4b8868743dfd31445eda98edecfb7152.setContent(html_244b19d2d695862fa499a2a1abb13d4b);
+            
+        
+
+        marker_6b857c7777c6b5ac41342f8721742eec.bindPopup(popup_4b8868743dfd31445eda98edecfb7152)
+        ;
+
+        
+    
+    
+            var marker_145b649f119dc502ae7fa2acb6920903 = L.marker(
+                [33.327676, 38.6559],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_53edb6f16d8561170c2cb13cce5251cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1293c7906db5b0a8279ae47c7337b9d = $(`<div id="html_e1293c7906db5b0a8279ae47c7337b9d" style="width: 100.0%; height: 100.0%;">2017/4/8|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_53edb6f16d8561170c2cb13cce5251cb.setContent(html_e1293c7906db5b0a8279ae47c7337b9d);
+            
+        
+
+        marker_145b649f119dc502ae7fa2acb6920903.bindPopup(popup_53edb6f16d8561170c2cb13cce5251cb)
+        ;
+
+        
+    
+    
+            var marker_322f2c181eb9d02fead2ce70fd684f50 = L.marker(
+                [33.330088, 38.656352],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_23a0d825fd8f4b03e93bee76dda9cb67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51aaa8a130e52cb019c0dd619db72b6a = $(`<div id="html_51aaa8a130e52cb019c0dd619db72b6a" style="width: 100.0%; height: 100.0%;">2017/4/8|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_23a0d825fd8f4b03e93bee76dda9cb67.setContent(html_51aaa8a130e52cb019c0dd619db72b6a);
+            
+        
+
+        marker_322f2c181eb9d02fead2ce70fd684f50.bindPopup(popup_23a0d825fd8f4b03e93bee76dda9cb67)
+        ;
+
+        
+    
+    
+            var marker_7e6a2898c554eb5ccb274e4f961a0b11 = L.marker(
+                [36.201721, 37.143521],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_c75a088974b38c52903d370182fb5b28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92146c96929396a59268b585c497ddc9 = $(`<div id="html_92146c96929396a59268b585c497ddc9" style="width: 100.0%; height: 100.0%;">2017/4/15|Jaysh al-Islam (Syria)</div>`)[0];
+                popup_c75a088974b38c52903d370182fb5b28.setContent(html_92146c96929396a59268b585c497ddc9);
+            
+        
+
+        marker_7e6a2898c554eb5ccb274e4f961a0b11.bindPopup(popup_c75a088974b38c52903d370182fb5b28)
+        ;
+
+        
+    
+    
+            var marker_b4d7357a24d04b58df78f162aa6df586 = L.marker(
+                [35.688749, 36.135869],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_cd563da288ab07a2055a422a22326558 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3314d8a585dd1c5c434a21c83e1c4042 = $(`<div id="html_3314d8a585dd1c5c434a21c83e1c4042" style="width: 100.0%; height: 100.0%;">2017/4/15|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_cd563da288ab07a2055a422a22326558.setContent(html_3314d8a585dd1c5c434a21c83e1c4042);
+            
+        
+
+        marker_b4d7357a24d04b58df78f162aa6df586.bindPopup(popup_cd563da288ab07a2055a422a22326558)
+        ;
+
+        
+    
+    
+            var marker_a0f912277132793124d068ba2f0b31c3 = L.marker(
+                [35.012791, 37.051506],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_5d6dfde7f2c7a994c0f6bebf5db74e15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d3fc9e54e21d3aab1d1627fd4d370ea = $(`<div id="html_3d3fc9e54e21d3aab1d1627fd4d370ea" style="width: 100.0%; height: 100.0%;">2017/4/17|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_5d6dfde7f2c7a994c0f6bebf5db74e15.setContent(html_3d3fc9e54e21d3aab1d1627fd4d370ea);
+            
+        
+
+        marker_a0f912277132793124d068ba2f0b31c3.bindPopup(popup_5d6dfde7f2c7a994c0f6bebf5db74e15)
+        ;
+
+        
+    
+    
+            var marker_487e804a7ce2b514217c969a2e24a8a3 = L.marker(
+                [36.201721, 37.143521],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_fdf5510f5d7e55de14905763a515c921 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c96e67ffa6b74e40de576f0dcc095b50 = $(`<div id="html_c96e67ffa6b74e40de576f0dcc095b50" style="width: 100.0%; height: 100.0%;">2017/4/19|Abu Amarah Battalion</div>`)[0];
+                popup_fdf5510f5d7e55de14905763a515c921.setContent(html_c96e67ffa6b74e40de576f0dcc095b50);
+            
+        
+
+        marker_487e804a7ce2b514217c969a2e24a8a3.bindPopup(popup_fdf5510f5d7e55de14905763a515c921)
+        ;
+
+        
+    
+    
+            var marker_f1d99a0309d8cb943cb80268433abb73 = L.marker(
+                [33.077632, 35.893414],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_1547e5e6b0516a14a20e50526e5a8d22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ade24bbcfc8799e453ebad620dd2096 = $(`<div id="html_4ade24bbcfc8799e453ebad620dd2096" style="width: 100.0%; height: 100.0%;">2017/4/23|Unknown</div>`)[0];
+                popup_1547e5e6b0516a14a20e50526e5a8d22.setContent(html_4ade24bbcfc8799e453ebad620dd2096);
+            
+        
+
+        marker_f1d99a0309d8cb943cb80268433abb73.bindPopup(popup_1547e5e6b0516a14a20e50526e5a8d22)
+        ;
+
+        
+    
+    
+            var marker_c954e947c9288a461cca33995da19dd0 = L.marker(
+                [35.756299, 37.589466],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_6b761e65b123fe6cc58c77e90e1d6f25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ea5051547ab69a75a3bf00c6ea940ab = $(`<div id="html_2ea5051547ab69a75a3bf00c6ea940ab" style="width: 100.0%; height: 100.0%;">2017/4/29|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_6b761e65b123fe6cc58c77e90e1d6f25.setContent(html_2ea5051547ab69a75a3bf00c6ea940ab);
+            
+        
+
+        marker_c954e947c9288a461cca33995da19dd0.bindPopup(popup_6b761e65b123fe6cc58c77e90e1d6f25)
+        ;
+
+        
+    
+    
+            var marker_045c96d6ce6926daa4da141216b22ce0 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_6c760970e2dc082c6f4a3cfd1f222a9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47b6f89236fb83fdd629390a2ccb1a45 = $(`<div id="html_47b6f89236fb83fdd629390a2ccb1a45" style="width: 100.0%; height: 100.0%;">2017/4/29|Unknown</div>`)[0];
+                popup_6c760970e2dc082c6f4a3cfd1f222a9f.setContent(html_47b6f89236fb83fdd629390a2ccb1a45);
+            
+        
+
+        marker_045c96d6ce6926daa4da141216b22ce0.bindPopup(popup_6c760970e2dc082c6f4a3cfd1f222a9f)
+        ;
+
+        
+    
+    
+            var marker_b86a863ada0580e59be4615ba3b40b39 = L.marker(
+                [36.807907, 42.071414],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_5c99282e7225902b6cba7947ae6eb14d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f19dd283e2a2087c39f1cf6f8a7fb5fe = $(`<div id="html_f19dd283e2a2087c39f1cf6f8a7fb5fe" style="width: 100.0%; height: 100.0%;">2017/5/2|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_5c99282e7225902b6cba7947ae6eb14d.setContent(html_f19dd283e2a2087c39f1cf6f8a7fb5fe);
+            
+        
+
+        marker_b86a863ada0580e59be4615ba3b40b39.bindPopup(popup_5c99282e7225902b6cba7947ae6eb14d)
+        ;
+
+        
+    
+    
+            var marker_e141e5915b4e463bcfebcdeca359a584 = L.marker(
+                [36.749678, 41.59673],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_f69f39dc1eedc58a729e06be160c425b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_507bfb14e1032a88a71458da1126a0c2 = $(`<div id="html_507bfb14e1032a88a71458da1126a0c2" style="width: 100.0%; height: 100.0%;">2017/5/2|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_f69f39dc1eedc58a729e06be160c425b.setContent(html_507bfb14e1032a88a71458da1126a0c2);
+            
+        
+
+        marker_e141e5915b4e463bcfebcdeca359a584.bindPopup(popup_f69f39dc1eedc58a729e06be160c425b)
+        ;
+
+        
+    
+    
+            var marker_38951a75e29a2d30ce925b1e5033233f = L.marker(
+                [36.585437, 37.04692],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a00e6f59855001379977316b619ebb31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bec03cf3a9d158476c5ff7f52094929 = $(`<div id="html_9bec03cf3a9d158476c5ff7f52094929" style="width: 100.0%; height: 100.0%;">2017/5/3|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_a00e6f59855001379977316b619ebb31.setContent(html_9bec03cf3a9d158476c5ff7f52094929);
+            
+        
+
+        marker_38951a75e29a2d30ce925b1e5033233f.bindPopup(popup_a00e6f59855001379977316b619ebb31)
+        ;
+
+        
+    
+    
+            var marker_c83a839c2796e72284f59daead08b42a = L.marker(
+                [35.263863, 37.413395],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_639aef6a52cf8d1f999f35aed843fb60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15b929592c8c0e3d4ce563027966be0a = $(`<div id="html_15b929592c8c0e3d4ce563027966be0a" style="width: 100.0%; height: 100.0%;">2017/5/14|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_639aef6a52cf8d1f999f35aed843fb60.setContent(html_15b929592c8c0e3d4ce563027966be0a);
+            
+        
+
+        marker_c83a839c2796e72284f59daead08b42a.bindPopup(popup_639aef6a52cf8d1f999f35aed843fb60)
+        ;
+
+        
+    
+    
+            var marker_db8dd732524b935a5c802bbe469f8156 = L.marker(
+                [33.328323, 38.658283],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_bceb3540d57df86ef30eaf0fbf73f1b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_853a631d2e003826625ec023cf5880d8 = $(`<div id="html_853a631d2e003826625ec023cf5880d8" style="width: 100.0%; height: 100.0%;">2017/5/15|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_bceb3540d57df86ef30eaf0fbf73f1b6.setContent(html_853a631d2e003826625ec023cf5880d8);
+            
+        
+
+        marker_db8dd732524b935a5c802bbe469f8156.bindPopup(popup_bceb3540d57df86ef30eaf0fbf73f1b6)
+        ;
+
+        
+    
+    
+            var marker_6a7f1c040565b6e74878fcf67fa1c138 = L.marker(
+                [33.328323, 38.658283],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_ac8d563c390dca895573d928fea252c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8266ad516caa6036d20299f4c990ad6b = $(`<div id="html_8266ad516caa6036d20299f4c990ad6b" style="width: 100.0%; height: 100.0%;">2017/5/15|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_ac8d563c390dca895573d928fea252c4.setContent(html_8266ad516caa6036d20299f4c990ad6b);
+            
+        
+
+        marker_6a7f1c040565b6e74878fcf67fa1c138.bindPopup(popup_ac8d563c390dca895573d928fea252c4)
+        ;
+
+        
+    
+    
+            var marker_633b7c0545efbad5ffb49f98d215bd45 = L.marker(
+                [35.86851, 36.804666],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_adf2a0d6a702ad7a82ff425f93287ae0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b91e30b57f4963dbe2f7413ba603393a = $(`<div id="html_b91e30b57f4963dbe2f7413ba603393a" style="width: 100.0%; height: 100.0%;">2017/5/15|Unknown</div>`)[0];
+                popup_adf2a0d6a702ad7a82ff425f93287ae0.setContent(html_b91e30b57f4963dbe2f7413ba603393a);
+            
+        
+
+        marker_633b7c0545efbad5ffb49f98d215bd45.bindPopup(popup_adf2a0d6a702ad7a82ff425f93287ae0)
+        ;
+
+        
+    
+    
+            var marker_4f7836efbe59cbacb3caf1e208289869 = L.marker(
+                [35.291111, 36.6625],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_8b38f1569f5f654d7eac606cbd0a8c6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a1f854e73bff6106698403556af792e = $(`<div id="html_8a1f854e73bff6106698403556af792e" style="width: 100.0%; height: 100.0%;">2017/5/15|Unknown</div>`)[0];
+                popup_8b38f1569f5f654d7eac606cbd0a8c6a.setContent(html_8a1f854e73bff6106698403556af792e);
+            
+        
+
+        marker_4f7836efbe59cbacb3caf1e208289869.bindPopup(popup_8b38f1569f5f654d7eac606cbd0a8c6a)
+        ;
+
+        
+    
+    
+            var marker_fcc08a61d1d264baea9c9030aa18049b = L.marker(
+                [33.328323, 38.658283],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_1c1d3ea1efdf8373b7e1b4219c6b8170 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5712c6c486c29b6361a1b62c7b31a6cc = $(`<div id="html_5712c6c486c29b6361a1b62c7b31a6cc" style="width: 100.0%; height: 100.0%;">2017/5/17|Unknown</div>`)[0];
+                popup_1c1d3ea1efdf8373b7e1b4219c6b8170.setContent(html_5712c6c486c29b6361a1b62c7b31a6cc);
+            
+        
+
+        marker_fcc08a61d1d264baea9c9030aa18049b.bindPopup(popup_1c1d3ea1efdf8373b7e1b4219c6b8170)
+        ;
+
+        
+    
+    
+            var marker_d8d3ad48bd28da08b6e22f8b3ae6107c = L.marker(
+                [35.012791, 37.051506],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_de5252363d291c9f60bd92ef678ec940 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8bb891cd12488b74a633102c10ec911 = $(`<div id="html_e8bb891cd12488b74a633102c10ec911" style="width: 100.0%; height: 100.0%;">2017/5/18|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_de5252363d291c9f60bd92ef678ec940.setContent(html_e8bb891cd12488b74a633102c10ec911);
+            
+        
+
+        marker_d8d3ad48bd28da08b6e22f8b3ae6107c.bindPopup(popup_de5252363d291c9f60bd92ef678ec940)
+        ;
+
+        
+    
+    
+            var marker_b21bb789d56036551812894598ec055d = L.marker(
+                [35.104691, 37.210418],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a40c6c92e3c4f4392e17c3a062faeeec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07e855dea10d4075d6096f3c0ab9f503 = $(`<div id="html_07e855dea10d4075d6096f3c0ab9f503" style="width: 100.0%; height: 100.0%;">2017/5/18|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_a40c6c92e3c4f4392e17c3a062faeeec.setContent(html_07e855dea10d4075d6096f3c0ab9f503);
+            
+        
+
+        marker_b21bb789d56036551812894598ec055d.bindPopup(popup_a40c6c92e3c4f4392e17c3a062faeeec)
+        ;
+
+        
+    
+    
+            var marker_a254934f95400ad1e3f1d2df3564d678 = L.marker(
+                [35.129298, 37.275086],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_4c72f5b35f873afb1cce84c91efbe264 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81d031fa4380022a49acf534a3e357fc = $(`<div id="html_81d031fa4380022a49acf534a3e357fc" style="width: 100.0%; height: 100.0%;">2017/5/18|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_4c72f5b35f873afb1cce84c91efbe264.setContent(html_81d031fa4380022a49acf534a3e357fc);
+            
+        
+
+        marker_a254934f95400ad1e3f1d2df3564d678.bindPopup(popup_4c72f5b35f873afb1cce84c91efbe264)
+        ;
+
+        
+    
+    
+            var marker_4af69bbf8bde6458c645a55b2ce1bf63 = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_c5fabe95a9278977e5aecbff0e517b81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78e3a67c8696f7d7d8fa4173d025582e = $(`<div id="html_78e3a67c8696f7d7d8fa4173d025582e" style="width: 100.0%; height: 100.0%;">2017/5/18|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_c5fabe95a9278977e5aecbff0e517b81.setContent(html_78e3a67c8696f7d7d8fa4173d025582e);
+            
+        
+
+        marker_4af69bbf8bde6458c645a55b2ce1bf63.bindPopup(popup_c5fabe95a9278977e5aecbff0e517b81)
+        ;
+
+        
+    
+    
+            var marker_6efa8cc2721aa00648fcb779553d9381 = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_01e23d5d7b89e77828377d7ee84b7a5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76f14f7ddf67298fe6056ce24e021b1d = $(`<div id="html_76f14f7ddf67298fe6056ce24e021b1d" style="width: 100.0%; height: 100.0%;">2017/5/19|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_01e23d5d7b89e77828377d7ee84b7a5b.setContent(html_76f14f7ddf67298fe6056ce24e021b1d);
+            
+        
+
+        marker_6efa8cc2721aa00648fcb779553d9381.bindPopup(popup_01e23d5d7b89e77828377d7ee84b7a5b)
+        ;
+
+        
+    
+    
+            var marker_df0c6605026f10e29429f97b31e8c79d = L.marker(
+                [35.28798, 40.308863],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_c678f4483465490c1e898e801f2817c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34c923f624daef01ddcabe9e6729d489 = $(`<div id="html_34c923f624daef01ddcabe9e6729d489" style="width: 100.0%; height: 100.0%;">2017/5/20|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_c678f4483465490c1e898e801f2817c6.setContent(html_34c923f624daef01ddcabe9e6729d489);
+            
+        
+
+        marker_df0c6605026f10e29429f97b31e8c79d.bindPopup(popup_c678f4483465490c1e898e801f2817c6)
+        ;
+
+        
+    
+    
+            var marker_059dd53faf07f61ea03938178e2a98dd = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a3a91458e9083fca2c996379a7cd86d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8beb379da416064c24df66585f6d5a5d = $(`<div id="html_8beb379da416064c24df66585f6d5a5d" style="width: 100.0%; height: 100.0%;">2017/5/20|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_a3a91458e9083fca2c996379a7cd86d9.setContent(html_8beb379da416064c24df66585f6d5a5d);
+            
+        
+
+        marker_059dd53faf07f61ea03938178e2a98dd.bindPopup(popup_a3a91458e9083fca2c996379a7cd86d9)
+        ;
+
+        
+    
+    
+            var marker_f6d25c08d942a08dcedd3a6e4d96c475 = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_b1a5e6a091c441319f4b7ad75a28c334 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9859ed7e70b4b21925ebd442bdba8e42 = $(`<div id="html_9859ed7e70b4b21925ebd442bdba8e42" style="width: 100.0%; height: 100.0%;">2017/5/20|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_b1a5e6a091c441319f4b7ad75a28c334.setContent(html_9859ed7e70b4b21925ebd442bdba8e42);
+            
+        
+
+        marker_f6d25c08d942a08dcedd3a6e4d96c475.bindPopup(popup_b1a5e6a091c441319f4b7ad75a28c334)
+        ;
+
+        
+    
+    
+            var marker_8014dfd6924b3f8f3e03aee66d5e3b12 = L.marker(
+                [35.293072, 40.169931],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_debafaa3eec71ff5e594d3c3bf5920fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8113fbc1e486161b12a70f64a46611d6 = $(`<div id="html_8113fbc1e486161b12a70f64a46611d6" style="width: 100.0%; height: 100.0%;">2017/5/20|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_debafaa3eec71ff5e594d3c3bf5920fd.setContent(html_8113fbc1e486161b12a70f64a46611d6);
+            
+        
+
+        marker_8014dfd6924b3f8f3e03aee66d5e3b12.bindPopup(popup_debafaa3eec71ff5e594d3c3bf5920fd)
+        ;
+
+        
+    
+    
+            var marker_c1c391cedbe373c036a65e2cb849fa1c = L.marker(
+                [34.717704, 36.722823],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_969da930b90c71b648e4568be7f9cbf7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_441242d9a45a980bd40d39eccce98524 = $(`<div id="html_441242d9a45a980bd40d39eccce98524" style="width: 100.0%; height: 100.0%;">2017/5/23|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_969da930b90c71b648e4568be7f9cbf7.setContent(html_441242d9a45a980bd40d39eccce98524);
+            
+        
+
+        marker_c1c391cedbe373c036a65e2cb849fa1c.bindPopup(popup_969da930b90c71b648e4568be7f9cbf7)
+        ;
+
+        
+    
+    
+            var marker_e80cc30c482de215e612bc5a50dc7da5 = L.marker(
+                [33.446476, 36.334499],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a2693a79a7a9bb9e6ff548788b8a1730 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7a773aad88f47ee2fabb7b77e975bcb = $(`<div id="html_b7a773aad88f47ee2fabb7b77e975bcb" style="width: 100.0%; height: 100.0%;">2017/5/23|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_a2693a79a7a9bb9e6ff548788b8a1730.setContent(html_b7a773aad88f47ee2fabb7b77e975bcb);
+            
+        
+
+        marker_e80cc30c482de215e612bc5a50dc7da5.bindPopup(popup_a2693a79a7a9bb9e6ff548788b8a1730)
+        ;
+
+        
+    
+    
+            var marker_260edc308b6c7d9eee54d45b9b2c74ee = L.marker(
+                [36.201721, 37.143521],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_392ae508d11d8384b10c3504c1d3f1dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0afd022aca58cd1adbadb09b7165a815 = $(`<div id="html_0afd022aca58cd1adbadb09b7165a815" style="width: 100.0%; height: 100.0%;">2017/5/24|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_392ae508d11d8384b10c3504c1d3f1dd.setContent(html_0afd022aca58cd1adbadb09b7165a815);
+            
+        
+
+        marker_260edc308b6c7d9eee54d45b9b2c74ee.bindPopup(popup_392ae508d11d8384b10c3504c1d3f1dd)
+        ;
+
+        
+    
+    
+            var marker_dfde6986b5282843f11237dd9f0eef0f = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_40a979cde32cf455bb401468e164583d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99ca0bd1d0a67455e3defd43946bb360 = $(`<div id="html_99ca0bd1d0a67455e3defd43946bb360" style="width: 100.0%; height: 100.0%;">2017/5/25|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_40a979cde32cf455bb401468e164583d.setContent(html_99ca0bd1d0a67455e3defd43946bb360);
+            
+        
+
+        marker_dfde6986b5282843f11237dd9f0eef0f.bindPopup(popup_40a979cde32cf455bb401468e164583d)
+        ;
+
+        
+    
+    
+            var marker_80c292353f1e9e52e6837308fe729efc = L.marker(
+                [34.727959, 37.707956],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_3c4fcd84755b5bf60584b21d21f09b0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_139ec6727ac1a9521e1e77c0b5a9b0f4 = $(`<div id="html_139ec6727ac1a9521e1e77c0b5a9b0f4" style="width: 100.0%; height: 100.0%;">2017/5/25|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_3c4fcd84755b5bf60584b21d21f09b0a.setContent(html_139ec6727ac1a9521e1e77c0b5a9b0f4);
+            
+        
+
+        marker_80c292353f1e9e52e6837308fe729efc.bindPopup(popup_3c4fcd84755b5bf60584b21d21f09b0a)
+        ;
+
+        
+    
+    
+            var marker_0dab01e54894a4176961f79f778889e6 = L.marker(
+                [35.566772, 39.920611],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_97254e7886e3927c5ddfe4e8497bfb96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_645d821c184d78489e48c123437b6fca = $(`<div id="html_645d821c184d78489e48c123437b6fca" style="width: 100.0%; height: 100.0%;">2017/5/27|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_97254e7886e3927c5ddfe4e8497bfb96.setContent(html_645d821c184d78489e48c123437b6fca);
+            
+        
+
+        marker_0dab01e54894a4176961f79f778889e6.bindPopup(popup_97254e7886e3927c5ddfe4e8497bfb96)
+        ;
+
+        
+    
+    
+            var marker_1aa778c482526f0deff8e7f4f2cdd560 = L.marker(
+                [32.788944, 36.349543],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a18df072ff5155d3c5a8faeb513f850e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e585a39e431e77d07ab3ee3ed28325a = $(`<div id="html_1e585a39e431e77d07ab3ee3ed28325a" style="width: 100.0%; height: 100.0%;">2017/5/28|Unknown</div>`)[0];
+                popup_a18df072ff5155d3c5a8faeb513f850e.setContent(html_1e585a39e431e77d07ab3ee3ed28325a);
+            
+        
+
+        marker_1aa778c482526f0deff8e7f4f2cdd560.bindPopup(popup_a18df072ff5155d3c5a8faeb513f850e)
+        ;
+
+        
+    
+    
+            var marker_217586e2d9fc9616f959bc279b252e0a = L.marker(
+                [32.710699, 36.26059],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_ad6fab95c0f92edcc993cb3a6f350d4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f8c345956e1f1d1a198952a1dfa2f1c = $(`<div id="html_6f8c345956e1f1d1a198952a1dfa2f1c" style="width: 100.0%; height: 100.0%;">2017/6/1|Unknown</div>`)[0];
+                popup_ad6fab95c0f92edcc993cb3a6f350d4d.setContent(html_6f8c345956e1f1d1a198952a1dfa2f1c);
+            
+        
+
+        marker_217586e2d9fc9616f959bc279b252e0a.bindPopup(popup_ad6fab95c0f92edcc993cb3a6f350d4d)
+        ;
+
+        
+    
+    
+            var marker_90b957783cebcf06c1de8337a8168cfe = L.marker(
+                [32.622334, 36.103757],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_18e6c851e4dbe8dd11779a5216971a06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_463eb3b82d21b53571be09fd63f68f5c = $(`<div id="html_463eb3b82d21b53571be09fd63f68f5c" style="width: 100.0%; height: 100.0%;">2017/6/3|Unknown</div>`)[0];
+                popup_18e6c851e4dbe8dd11779a5216971a06.setContent(html_463eb3b82d21b53571be09fd63f68f5c);
+            
+        
+
+        marker_90b957783cebcf06c1de8337a8168cfe.bindPopup(popup_18e6c851e4dbe8dd11779a5216971a06)
+        ;
+
+        
+    
+    
+            var marker_50b2af0d5e9c3d54c8ee82bc9e9e4856 = L.marker(
+                [32.622334, 36.103757],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_46eddfe174afaea9d32a5f4335acfd84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_519c4e10b554cac98c6c81dd335d1d83 = $(`<div id="html_519c4e10b554cac98c6c81dd335d1d83" style="width: 100.0%; height: 100.0%;">2017/6/3|Unknown</div>`)[0];
+                popup_46eddfe174afaea9d32a5f4335acfd84.setContent(html_519c4e10b554cac98c6c81dd335d1d83);
+            
+        
+
+        marker_50b2af0d5e9c3d54c8ee82bc9e9e4856.bindPopup(popup_46eddfe174afaea9d32a5f4335acfd84)
+        ;
+
+        
+    
+    
+            var marker_9a2d10bb4005d8016d5d850c50baf961 = L.marker(
+                [32.622334, 36.103757],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_84b791bc143d1925fb397b95f098b833 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44faa3a60f90094f09fe68d19a31e909 = $(`<div id="html_44faa3a60f90094f09fe68d19a31e909" style="width: 100.0%; height: 100.0%;">2017/6/3|Unknown</div>`)[0];
+                popup_84b791bc143d1925fb397b95f098b833.setContent(html_44faa3a60f90094f09fe68d19a31e909);
+            
+        
+
+        marker_9a2d10bb4005d8016d5d850c50baf961.bindPopup(popup_84b791bc143d1925fb397b95f098b833)
+        ;
+
+        
+    
+    
+            var marker_fc4ef57244cff00ff4c3640e90bc6545 = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_ceaab64a078e4e24c77c5eb5cf4d9950 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75353acfa7428c224c9e682a1a91b516 = $(`<div id="html_75353acfa7428c224c9e682a1a91b516" style="width: 100.0%; height: 100.0%;">2017/6/9|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_ceaab64a078e4e24c77c5eb5cf4d9950.setContent(html_75353acfa7428c224c9e682a1a91b516);
+            
+        
+
+        marker_fc4ef57244cff00ff4c3640e90bc6545.bindPopup(popup_ceaab64a078e4e24c77c5eb5cf4d9950)
+        ;
+
+        
+    
+    
+            var marker_13cdb07134c93e8db5a8c6239fb3488b = L.marker(
+                [35.928802, 36.631452],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_39a0a008b1f304b1014f85800207031f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_807e2750466618ea65803a393afd3262 = $(`<div id="html_807e2750466618ea65803a393afd3262" style="width: 100.0%; height: 100.0%;">2017/6/16|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_39a0a008b1f304b1014f85800207031f.setContent(html_807e2750466618ea65803a393afd3262);
+            
+        
+
+        marker_13cdb07134c93e8db5a8c6239fb3488b.bindPopup(popup_39a0a008b1f304b1014f85800207031f)
+        ;
+
+        
+    
+    
+            var marker_983a12e7a7884f057c0d67e6a20cb646 = L.marker(
+                [35.943376, 38.963154],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_c9b5e4f98320b8274b873ad7ec434930 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_258ece0b71038d4e66c224fbfe7eaf36 = $(`<div id="html_258ece0b71038d4e66c224fbfe7eaf36" style="width: 100.0%; height: 100.0%;">2017/6/16|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_c9b5e4f98320b8274b873ad7ec434930.setContent(html_258ece0b71038d4e66c224fbfe7eaf36);
+            
+        
+
+        marker_983a12e7a7884f057c0d67e6a20cb646.bindPopup(popup_c9b5e4f98320b8274b873ad7ec434930)
+        ;
+
+        
+    
+    
+            var marker_4b8508c8258ec373549e2941b567e6b1 = L.marker(
+                [33.561505, 36.368762],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_c575759740ba09752d7e4d03f253a43f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_161d4a6f874afbfc4142750338aea67a = $(`<div id="html_161d4a6f874afbfc4142750338aea67a" style="width: 100.0%; height: 100.0%;">2017/6/17|Unknown</div>`)[0];
+                popup_c575759740ba09752d7e4d03f253a43f.setContent(html_161d4a6f874afbfc4142750338aea67a);
+            
+        
+
+        marker_4b8508c8258ec373549e2941b567e6b1.bindPopup(popup_c575759740ba09752d7e4d03f253a43f)
+        ;
+
+        
+    
+    
+            var marker_daf4d7553d9cd9d87cc89a99c9d23867 = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_38e33e4ad7131e070d58eff7a87cdcf9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5e2ff1f999efbddba77c47ac53e36cc = $(`<div id="html_b5e2ff1f999efbddba77c47ac53e36cc" style="width: 100.0%; height: 100.0%;">2017/6/20|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_38e33e4ad7131e070d58eff7a87cdcf9.setContent(html_b5e2ff1f999efbddba77c47ac53e36cc);
+            
+        
+
+        marker_daf4d7553d9cd9d87cc89a99c9d23867.bindPopup(popup_38e33e4ad7131e070d58eff7a87cdcf9)
+        ;
+
+        
+    
+    
+            var marker_de0a0f2597cbb012cf09034e4863c6e7 = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_801448f9bae5007215d72dbf29bce311 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37bbc4339fc888a312483bee509d4d07 = $(`<div id="html_37bbc4339fc888a312483bee509d4d07" style="width: 100.0%; height: 100.0%;">2017/6/20|Unknown</div>`)[0];
+                popup_801448f9bae5007215d72dbf29bce311.setContent(html_37bbc4339fc888a312483bee509d4d07);
+            
+        
+
+        marker_de0a0f2597cbb012cf09034e4863c6e7.bindPopup(popup_801448f9bae5007215d72dbf29bce311)
+        ;
+
+        
+    
+    
+            var marker_e2477ec7fde67c27fe958aa210d1bc43 = L.marker(
+                [35.928802, 36.631452],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_5b6eb7011f5ce370dc08e64f8fde346f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_933d6b11186cbb6ed21a641f288f665c = $(`<div id="html_933d6b11186cbb6ed21a641f288f665c" style="width: 100.0%; height: 100.0%;">2017/6/21|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_5b6eb7011f5ce370dc08e64f8fde346f.setContent(html_933d6b11186cbb6ed21a641f288f665c);
+            
+        
+
+        marker_e2477ec7fde67c27fe958aa210d1bc43.bindPopup(popup_5b6eb7011f5ce370dc08e64f8fde346f)
+        ;
+
+        
+    
+    
+            var marker_94c524b71695d561a0f37851a3c3b71c = L.marker(
+                [36.213076, 36.76951],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_52af58986bd92311f7d2db1578fde456 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f32b84164640d4112fda08a42fa5424 = $(`<div id="html_6f32b84164640d4112fda08a42fa5424" style="width: 100.0%; height: 100.0%;">2017/6/23|Unknown</div>`)[0];
+                popup_52af58986bd92311f7d2db1578fde456.setContent(html_6f32b84164640d4112fda08a42fa5424);
+            
+        
+
+        marker_94c524b71695d561a0f37851a3c3b71c.bindPopup(popup_52af58986bd92311f7d2db1578fde456)
+        ;
+
+        
+    
+    
+            var marker_74a4ba1ecb6fff3417e312f06019664d = L.marker(
+                [36.201721, 37.143521],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_bf880c6140b5554166291031ae2c7a4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7fa8f8e855ed176f0efb73056321235 = $(`<div id="html_b7fa8f8e855ed176f0efb73056321235" style="width: 100.0%; height: 100.0%;">2017/6/23|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_bf880c6140b5554166291031ae2c7a4f.setContent(html_b7fa8f8e855ed176f0efb73056321235);
+            
+        
+
+        marker_74a4ba1ecb6fff3417e312f06019664d.bindPopup(popup_bf880c6140b5554166291031ae2c7a4f)
+        ;
+
+        
+    
+    
+            var marker_214f1a26600ba8cfc5ef4750d2a1f666 = L.marker(
+                [36.213076, 36.76951],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_adb18300e096124d1f37dbb1a22bf3a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e8a9f660b0b55d7c994db1b96387afa = $(`<div id="html_3e8a9f660b0b55d7c994db1b96387afa" style="width: 100.0%; height: 100.0%;">2017/6/24|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_adb18300e096124d1f37dbb1a22bf3a9.setContent(html_3e8a9f660b0b55d7c994db1b96387afa);
+            
+        
+
+        marker_214f1a26600ba8cfc5ef4750d2a1f666.bindPopup(popup_adb18300e096124d1f37dbb1a22bf3a9)
+        ;
+
+        
+    
+    
+            var marker_a4bd8f30f964bc1e4f1991f8aa667895 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_00a18dffbabae764f05be587038860b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f932951bcc5f4213f396ffc809bde984 = $(`<div id="html_f932951bcc5f4213f396ffc809bde984" style="width: 100.0%; height: 100.0%;">2017/6/26|Unknown</div>`)[0];
+                popup_00a18dffbabae764f05be587038860b3.setContent(html_f932951bcc5f4213f396ffc809bde984);
+            
+        
+
+        marker_a4bd8f30f964bc1e4f1991f8aa667895.bindPopup(popup_00a18dffbabae764f05be587038860b3)
+        ;
+
+        
+    
+    
+            var marker_dd0ea470b74aabf2290c49bf052da6d3 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_072623f0d1164f8ef7f33ebd94447b01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa6a129a6cceeba6c76ccdd9f3bce435 = $(`<div id="html_aa6a129a6cceeba6c76ccdd9f3bce435" style="width: 100.0%; height: 100.0%;">2017/6/26|Unknown</div>`)[0];
+                popup_072623f0d1164f8ef7f33ebd94447b01.setContent(html_aa6a129a6cceeba6c76ccdd9f3bce435);
+            
+        
+
+        marker_dd0ea470b74aabf2290c49bf052da6d3.bindPopup(popup_072623f0d1164f8ef7f33ebd94447b01)
+        ;
+
+        
+    
+    
+            var marker_ddc71bf7840367803bdbaf0de7c822e7 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_11334fe432bf485b3670fcd7561289c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a155b472c26ee0d7acbb7c04f1ab351e = $(`<div id="html_a155b472c26ee0d7acbb7c04f1ab351e" style="width: 100.0%; height: 100.0%;">2017/6/26|Unknown</div>`)[0];
+                popup_11334fe432bf485b3670fcd7561289c1.setContent(html_a155b472c26ee0d7acbb7c04f1ab351e);
+            
+        
+
+        marker_ddc71bf7840367803bdbaf0de7c822e7.bindPopup(popup_11334fe432bf485b3670fcd7561289c1)
+        ;
+
+        
+    
+    
+            var marker_0f857a0bc066c0f31bda017339f98841 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a31924949e01c693cd314abb9f8834db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ba2cfc04b287624088d1ade31bd9d1e = $(`<div id="html_3ba2cfc04b287624088d1ade31bd9d1e" style="width: 100.0%; height: 100.0%;">2017/6/26|Unknown</div>`)[0];
+                popup_a31924949e01c693cd314abb9f8834db.setContent(html_3ba2cfc04b287624088d1ade31bd9d1e);
+            
+        
+
+        marker_0f857a0bc066c0f31bda017339f98841.bindPopup(popup_a31924949e01c693cd314abb9f8834db)
+        ;
+
+        
+    
+    
+            var marker_60a757c4f554b44d1068d1d9f6833f03 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_071f0d12333cdc4d17986634f4655f45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c18bd462eed72fbf180f5334f03c3639 = $(`<div id="html_c18bd462eed72fbf180f5334f03c3639" style="width: 100.0%; height: 100.0%;">2017/6/26|Unknown</div>`)[0];
+                popup_071f0d12333cdc4d17986634f4655f45.setContent(html_c18bd462eed72fbf180f5334f03c3639);
+            
+        
+
+        marker_60a757c4f554b44d1068d1d9f6833f03.bindPopup(popup_071f0d12333cdc4d17986634f4655f45)
+        ;
+
+        
+    
+    
+            var marker_ba64e99493390fdd41c796335a403e5f = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_857906fc914304cc36218c9b87d49240 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f1435e95bf41404f11ab654e6ec73f0 = $(`<div id="html_8f1435e95bf41404f11ab654e6ec73f0" style="width: 100.0%; height: 100.0%;">2017/6/29|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_857906fc914304cc36218c9b87d49240.setContent(html_8f1435e95bf41404f11ab654e6ec73f0);
+            
+        
+
+        marker_ba64e99493390fdd41c796335a403e5f.bindPopup(popup_857906fc914304cc36218c9b87d49240)
+        ;
+
+        
+    
+    
+            var marker_48f18dea43b1eecfee8e035fa9f9b116 = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_77a018c30f1d450c6acb5c2eb2c568b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63b7548541473b24d4060af48863d6c8 = $(`<div id="html_63b7548541473b24d4060af48863d6c8" style="width: 100.0%; height: 100.0%;">2017/6/29|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_77a018c30f1d450c6acb5c2eb2c568b2.setContent(html_63b7548541473b24d4060af48863d6c8);
+            
+        
+
+        marker_48f18dea43b1eecfee8e035fa9f9b116.bindPopup(popup_77a018c30f1d450c6acb5c2eb2c568b2)
+        ;
+
+        
+    
+    
+            var marker_8cfc109100c7f2a3e00963fb1ffc2d7d = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_e35f9358d5bca7994ee95630a387b1bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34a2afa6e119b66a4f9883263a867f47 = $(`<div id="html_34a2afa6e119b66a4f9883263a867f47" style="width: 100.0%; height: 100.0%;">2017/7/2|Unknown</div>`)[0];
+                popup_e35f9358d5bca7994ee95630a387b1bd.setContent(html_34a2afa6e119b66a4f9883263a867f47);
+            
+        
+
+        marker_8cfc109100c7f2a3e00963fb1ffc2d7d.bindPopup(popup_e35f9358d5bca7994ee95630a387b1bd)
+        ;
+
+        
+    
+    
+            var marker_a8297abda5b4a747788031f8972e3584 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_86a09ed46f19a4085bbbf8c6520228a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff3a91abd2f7364f921bbaa21da9b78e = $(`<div id="html_ff3a91abd2f7364f921bbaa21da9b78e" style="width: 100.0%; height: 100.0%;">2017/7/2|Unknown</div>`)[0];
+                popup_86a09ed46f19a4085bbbf8c6520228a8.setContent(html_ff3a91abd2f7364f921bbaa21da9b78e);
+            
+        
+
+        marker_a8297abda5b4a747788031f8972e3584.bindPopup(popup_86a09ed46f19a4085bbbf8c6520228a8)
+        ;
+
+        
+    
+    
+            var marker_941bd0923053da6cf08c4305b656a484 = L.marker(
+                [35.330973, 40.113333],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_5bc610eae778c1c43634e058fcaf5f10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b669c7ab35cc568949d2ae20794d26e = $(`<div id="html_7b669c7ab35cc568949d2ae20794d26e" style="width: 100.0%; height: 100.0%;">2017/7/2|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_5bc610eae778c1c43634e058fcaf5f10.setContent(html_7b669c7ab35cc568949d2ae20794d26e);
+            
+        
+
+        marker_941bd0923053da6cf08c4305b656a484.bindPopup(popup_5bc610eae778c1c43634e058fcaf5f10)
+        ;
+
+        
+    
+    
+            var marker_375fc07f2eff948a074fbe1b437ff4af = L.marker(
+                [32.798916, 36.781951],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a18a538c28f9716c443c6d943b8b983e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5923f4ca7a4f81c695cf55274a88a39 = $(`<div id="html_c5923f4ca7a4f81c695cf55274a88a39" style="width: 100.0%; height: 100.0%;">2017/7/4|Unknown</div>`)[0];
+                popup_a18a538c28f9716c443c6d943b8b983e.setContent(html_c5923f4ca7a4f81c695cf55274a88a39);
+            
+        
+
+        marker_375fc07f2eff948a074fbe1b437ff4af.bindPopup(popup_a18a538c28f9716c443c6d943b8b983e)
+        ;
+
+        
+    
+    
+            var marker_15edc82943da34b64bf2591a6a051727 = L.marker(
+                [35.129182, 36.760737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_dbe6831105197b41bf7fbbb4364f142c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb34bf5cac3a2a62193c519323d743c0 = $(`<div id="html_fb34bf5cac3a2a62193c519323d743c0" style="width: 100.0%; height: 100.0%;">2017/7/6|Unknown</div>`)[0];
+                popup_dbe6831105197b41bf7fbbb4364f142c.setContent(html_fb34bf5cac3a2a62193c519323d743c0);
+            
+        
+
+        marker_15edc82943da34b64bf2591a6a051727.bindPopup(popup_dbe6831105197b41bf7fbbb4364f142c)
+        ;
+
+        
+    
+    
+            var marker_1d2c691c44018d170e18442124931224 = L.marker(
+                [32.423466, 36.623698],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_cfd6975f41c73f3ea3278da123b472bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71c4809623f80c8666fc6b30ef6720be = $(`<div id="html_71c4809623f80c8666fc6b30ef6720be" style="width: 100.0%; height: 100.0%;">2017/7/11|Free Syrian Army</div>`)[0];
+                popup_cfd6975f41c73f3ea3278da123b472bc.setContent(html_71c4809623f80c8666fc6b30ef6720be);
+            
+        
+
+        marker_1d2c691c44018d170e18442124931224.bindPopup(popup_cfd6975f41c73f3ea3278da123b472bc)
+        ;
+
+        
+    
+    
+            var marker_a96176153f89bc99eb7b56a83f246fd1 = L.marker(
+                [36.201721, 37.143521],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_128a5692123235962ed227438386892a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cc1e9a6c3e29fc7bb188cff7db31c75 = $(`<div id="html_0cc1e9a6c3e29fc7bb188cff7db31c75" style="width: 100.0%; height: 100.0%;">2017/7/12|Unknown</div>`)[0];
+                popup_128a5692123235962ed227438386892a.setContent(html_0cc1e9a6c3e29fc7bb188cff7db31c75);
+            
+        
+
+        marker_a96176153f89bc99eb7b56a83f246fd1.bindPopup(popup_128a5692123235962ed227438386892a)
+        ;
+
+        
+    
+    
+            var marker_791bb7de22e9e193031ce5bc7b7d1f1b = L.marker(
+                [36.121288, 37.343789],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_6441825b5bb2b88fe600124b2602a343 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_118a94a8c7b0dd50b8ee7e0892442e7c = $(`<div id="html_118a94a8c7b0dd50b8ee7e0892442e7c" style="width: 100.0%; height: 100.0%;">2017/7/12|Unknown</div>`)[0];
+                popup_6441825b5bb2b88fe600124b2602a343.setContent(html_118a94a8c7b0dd50b8ee7e0892442e7c);
+            
+        
+
+        marker_791bb7de22e9e193031ce5bc7b7d1f1b.bindPopup(popup_6441825b5bb2b88fe600124b2602a343)
+        ;
+
+        
+    
+    
+            var marker_97be31b69c3a53b8c4bbd8fe38d06cff = L.marker(
+                [36.273452, 37.000943],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_9138adfdcb7cf68196af0e0d717af383 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_687eeb7b17fa5512f8fa434c086f7273 = $(`<div id="html_687eeb7b17fa5512f8fa434c086f7273" style="width: 100.0%; height: 100.0%;">2017/7/12|Unknown</div>`)[0];
+                popup_9138adfdcb7cf68196af0e0d717af383.setContent(html_687eeb7b17fa5512f8fa434c086f7273);
+            
+        
+
+        marker_97be31b69c3a53b8c4bbd8fe38d06cff.bindPopup(popup_9138adfdcb7cf68196af0e0d717af383)
+        ;
+
+        
+    
+    
+            var marker_56566b5aef9ad8f5b59983434b639f73 = L.marker(
+                [36.201721, 37.143521],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_0b2fdbb7438012e1e8ad4370fdd32018 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bacc57572a317e1ae25cdc67985b04f = $(`<div id="html_8bacc57572a317e1ae25cdc67985b04f" style="width: 100.0%; height: 100.0%;">2017/7/13|Abu Amarah Battalion</div>`)[0];
+                popup_0b2fdbb7438012e1e8ad4370fdd32018.setContent(html_8bacc57572a317e1ae25cdc67985b04f);
+            
+        
+
+        marker_56566b5aef9ad8f5b59983434b639f73.bindPopup(popup_0b2fdbb7438012e1e8ad4370fdd32018)
+        ;
+
+        
+    
+    
+            var marker_8b0139dd2470efb52b7bafdb26a11cc6 = L.marker(
+                [34.227744, 37.244215],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_7d0772a5120b76c7945ac97fb1617b1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edd9de813e1a3d4c9d3d802ad2e925f5 = $(`<div id="html_edd9de813e1a3d4c9d3d802ad2e925f5" style="width: 100.0%; height: 100.0%;">2017/7/16|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_7d0772a5120b76c7945ac97fb1617b1d.setContent(html_edd9de813e1a3d4c9d3d802ad2e925f5);
+            
+        
+
+        marker_8b0139dd2470efb52b7bafdb26a11cc6.bindPopup(popup_7d0772a5120b76c7945ac97fb1617b1d)
+        ;
+
+        
+    
+    
+            var marker_c552124b50c3823f8c27080cd983eede = L.marker(
+                [34.812582, 37.477768],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_7aa4897bf55f7a3826f0680765581b72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43ec8b5ee4ac57d0e2c5832a484a6fcb = $(`<div id="html_43ec8b5ee4ac57d0e2c5832a484a6fcb" style="width: 100.0%; height: 100.0%;">2017/7/16|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_7aa4897bf55f7a3826f0680765581b72.setContent(html_43ec8b5ee4ac57d0e2c5832a484a6fcb);
+            
+        
+
+        marker_c552124b50c3823f8c27080cd983eede.bindPopup(popup_7aa4897bf55f7a3826f0680765581b72)
+        ;
+
+        
+    
+    
+            var marker_4fe6de383267a9514888e67556d7ff45 = L.marker(
+                [34.717704, 36.722823],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_bfe9cd92c288fccb614ce239e0bcb20c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abdcbfd648f9056f33a481b100d26150 = $(`<div id="html_abdcbfd648f9056f33a481b100d26150" style="width: 100.0%; height: 100.0%;">2017/7/16|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_bfe9cd92c288fccb614ce239e0bcb20c.setContent(html_abdcbfd648f9056f33a481b100d26150);
+            
+        
+
+        marker_4fe6de383267a9514888e67556d7ff45.bindPopup(popup_bfe9cd92c288fccb614ce239e0bcb20c)
+        ;
+
+        
+    
+    
+            var marker_e7ddf597e3155e1c83143f9a91c00adb = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_89d3c48e27b5233a74c1f73d48eeee79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09e90214730b940ed5de7804333b7181 = $(`<div id="html_09e90214730b940ed5de7804333b7181" style="width: 100.0%; height: 100.0%;">2017/7/17|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_89d3c48e27b5233a74c1f73d48eeee79.setContent(html_09e90214730b940ed5de7804333b7181);
+            
+        
+
+        marker_e7ddf597e3155e1c83143f9a91c00adb.bindPopup(popup_89d3c48e27b5233a74c1f73d48eeee79)
+        ;
+
+        
+    
+    
+            var marker_d4a364090c3a246883182e8a357361fa = L.marker(
+                [36.688343, 40.196633],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_44801cb2d087208dd956dd06b3485997 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c8df97c733aac1b957ef4e33a882484 = $(`<div id="html_1c8df97c733aac1b957ef4e33a882484" style="width: 100.0%; height: 100.0%;">2017/7/18|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_44801cb2d087208dd956dd06b3485997.setContent(html_1c8df97c733aac1b957ef4e33a882484);
+            
+        
+
+        marker_d4a364090c3a246883182e8a357361fa.bindPopup(popup_44801cb2d087208dd956dd06b3485997)
+        ;
+
+        
+    
+    
+            var marker_a038e36090bc0314f48373d45d00bf59 = L.marker(
+                [36.655981, 39.758629],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_e54e456e27fc794dc1e16ede5ccf77fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d25c1ca510573a231e249313636becca = $(`<div id="html_d25c1ca510573a231e249313636becca" style="width: 100.0%; height: 100.0%;">2017/7/18|Unknown</div>`)[0];
+                popup_e54e456e27fc794dc1e16ede5ccf77fe.setContent(html_d25c1ca510573a231e249313636becca);
+            
+        
+
+        marker_a038e36090bc0314f48373d45d00bf59.bindPopup(popup_e54e456e27fc794dc1e16ede5ccf77fe)
+        ;
+
+        
+    
+    
+            var marker_b8fd59fa224ed1c3febc27bbee53679a = L.marker(
+                [35.82688, 36.695722],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_1fa1ea977bc0e678f63599f164e26128 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f0c8fcebb6b0af9ef97b145c580dffc = $(`<div id="html_4f0c8fcebb6b0af9ef97b145c580dffc" style="width: 100.0%; height: 100.0%;">2017/7/18|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_1fa1ea977bc0e678f63599f164e26128.setContent(html_4f0c8fcebb6b0af9ef97b145c580dffc);
+            
+        
+
+        marker_b8fd59fa224ed1c3febc27bbee53679a.bindPopup(popup_1fa1ea977bc0e678f63599f164e26128)
+        ;
+
+        
+    
+    
+            var marker_36b16b7b296f5d6df11ac2b0a1ef63f0 = L.marker(
+                [33.52765, 36.392297],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_03d02f1755f92b6c6ae23a5321e35e41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66e966c54d73a4a35d69a75789c2523b = $(`<div id="html_66e966c54d73a4a35d69a75789c2523b" style="width: 100.0%; height: 100.0%;">2017/7/19|Jaysh al-Islam (Syria)</div>`)[0];
+                popup_03d02f1755f92b6c6ae23a5321e35e41.setContent(html_66e966c54d73a4a35d69a75789c2523b);
+            
+        
+
+        marker_36b16b7b296f5d6df11ac2b0a1ef63f0.bindPopup(popup_03d02f1755f92b6c6ae23a5321e35e41)
+        ;
+
+        
+    
+    
+            var marker_b7e565a9db6751c9e62c3b24693ee8e5 = L.marker(
+                [35.86851, 36.804666],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_7ef37b8e39a56b0442d4a52df674986a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ae2ca32615819284c8489979a4eec67 = $(`<div id="html_7ae2ca32615819284c8489979a4eec67" style="width: 100.0%; height: 100.0%;">2017/7/19|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_7ef37b8e39a56b0442d4a52df674986a.setContent(html_7ae2ca32615819284c8489979a4eec67);
+            
+        
+
+        marker_b7e565a9db6751c9e62c3b24693ee8e5.bindPopup(popup_7ef37b8e39a56b0442d4a52df674986a)
+        ;
+
+        
+    
+    
+            var marker_d7ad2e07d97d1bbc035ad6aa317c728c = L.marker(
+                [34.384521, 37.993464],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_445905a67d90414824742ed965ce94bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be66a3f22e8b3ebbb9c3daab6b46b5b7 = $(`<div id="html_be66a3f22e8b3ebbb9c3daab6b46b5b7" style="width: 100.0%; height: 100.0%;">2017/7/19|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_445905a67d90414824742ed965ce94bc.setContent(html_be66a3f22e8b3ebbb9c3daab6b46b5b7);
+            
+        
+
+        marker_d7ad2e07d97d1bbc035ad6aa317c728c.bindPopup(popup_445905a67d90414824742ed965ce94bc)
+        ;
+
+        
+    
+    
+            var marker_8f950972e73a661c6ff46999e60ea591 = L.marker(
+                [36.08363, 36.5031],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_1c011ff3051dc7a77034d599f6682e16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c40f57a30b01a43d255f0d65e68415e1 = $(`<div id="html_c40f57a30b01a43d255f0d65e68415e1" style="width: 100.0%; height: 100.0%;">2017/7/19|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_1c011ff3051dc7a77034d599f6682e16.setContent(html_c40f57a30b01a43d255f0d65e68415e1);
+            
+        
+
+        marker_8f950972e73a661c6ff46999e60ea591.bindPopup(popup_1c011ff3051dc7a77034d599f6682e16)
+        ;
+
+        
+    
+    
+            var marker_3beb1627005c43ad3e60412bd4b12c68 = L.marker(
+                [35.600121, 36.525667],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_06ec96eedf7b441d247d9394cb8f7429 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da7bfe7efd03afe5afc52a34032aa3cb = $(`<div id="html_da7bfe7efd03afe5afc52a34032aa3cb" style="width: 100.0%; height: 100.0%;">2017/7/19|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_06ec96eedf7b441d247d9394cb8f7429.setContent(html_da7bfe7efd03afe5afc52a34032aa3cb);
+            
+        
+
+        marker_3beb1627005c43ad3e60412bd4b12c68.bindPopup(popup_06ec96eedf7b441d247d9394cb8f7429)
+        ;
+
+        
+    
+    
+            var marker_280eee243bf3c5b4674db59a19421513 = L.marker(
+                [35.86851, 36.804666],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_2e6c6acee71264fe1052b5d7eca2e725 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b92166401d05077766d45b0d2879758 = $(`<div id="html_1b92166401d05077766d45b0d2879758" style="width: 100.0%; height: 100.0%;">2017/7/20|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_2e6c6acee71264fe1052b5d7eca2e725.setContent(html_1b92166401d05077766d45b0d2879758);
+            
+        
+
+        marker_280eee243bf3c5b4674db59a19421513.bindPopup(popup_2e6c6acee71264fe1052b5d7eca2e725)
+        ;
+
+        
+    
+    
+            var marker_0b4d8a83477c5a101b4773b460654bbc = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_eef130d36e6856e5dc2e3f708429f82f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_786df2938d8c245ba2441ef6fff5d163 = $(`<div id="html_786df2938d8c245ba2441ef6fff5d163" style="width: 100.0%; height: 100.0%;">2017/7/23|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_eef130d36e6856e5dc2e3f708429f82f.setContent(html_786df2938d8c245ba2441ef6fff5d163);
+            
+        
+
+        marker_0b4d8a83477c5a101b4773b460654bbc.bindPopup(popup_eef130d36e6856e5dc2e3f708429f82f)
+        ;
+
+        
+    
+    
+            var marker_4c025c3d34ee14449d979a299e348c33 = L.marker(
+                [35.928802, 36.631452],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_e65d8fa357b8bf8ebeb261b41e06baf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fc3b846c5a9fdf942c17b4dc93e3844 = $(`<div id="html_2fc3b846c5a9fdf942c17b4dc93e3844" style="width: 100.0%; height: 100.0%;">2017/7/23|Unknown</div>`)[0];
+                popup_e65d8fa357b8bf8ebeb261b41e06baf2.setContent(html_2fc3b846c5a9fdf942c17b4dc93e3844);
+            
+        
+
+        marker_4c025c3d34ee14449d979a299e348c33.bindPopup(popup_e65d8fa357b8bf8ebeb261b41e06baf2)
+        ;
+
+        
+    
+    
+            var marker_8a401c0d4f22c9731ad79d2d1099b7dd = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_d59ae409a6265c18886de9dded9795c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae7c197183179565ee90d44ee76d4763 = $(`<div id="html_ae7c197183179565ee90d44ee76d4763" style="width: 100.0%; height: 100.0%;">2017/7/24|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_d59ae409a6265c18886de9dded9795c0.setContent(html_ae7c197183179565ee90d44ee76d4763);
+            
+        
+
+        marker_8a401c0d4f22c9731ad79d2d1099b7dd.bindPopup(popup_d59ae409a6265c18886de9dded9795c0)
+        ;
+
+        
+    
+    
+            var marker_396177c70161f22dc789f2e35e45306f = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a028344bd990512e96eee83da1ac2153 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5196e469495477ef66f5d4330950cc34 = $(`<div id="html_5196e469495477ef66f5d4330950cc34" style="width: 100.0%; height: 100.0%;">2017/7/27|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_a028344bd990512e96eee83da1ac2153.setContent(html_5196e469495477ef66f5d4330950cc34);
+            
+        
+
+        marker_396177c70161f22dc789f2e35e45306f.bindPopup(popup_a028344bd990512e96eee83da1ac2153)
+        ;
+
+        
+    
+    
+            var marker_7777ea1051a0122904c9726dd78b065b = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_2f1d26e82a337e1e32f9e9eda9851009 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23d083b69760e54387a669440c96f3e5 = $(`<div id="html_23d083b69760e54387a669440c96f3e5" style="width: 100.0%; height: 100.0%;">2017/7/27|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_2f1d26e82a337e1e32f9e9eda9851009.setContent(html_23d083b69760e54387a669440c96f3e5);
+            
+        
+
+        marker_7777ea1051a0122904c9726dd78b065b.bindPopup(popup_2f1d26e82a337e1e32f9e9eda9851009)
+        ;
+
+        
+    
+    
+            var marker_a801ef8915fe9b47c5855abaebf02ac4 = L.marker(
+                [34.884201, 38.872516],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_92fffbb79fad0845d240c7f014d41a2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de8c88f3f414d790062cc83aa822a47e = $(`<div id="html_de8c88f3f414d790062cc83aa822a47e" style="width: 100.0%; height: 100.0%;">2017/7/30|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_92fffbb79fad0845d240c7f014d41a2c.setContent(html_de8c88f3f414d790062cc83aa822a47e);
+            
+        
+
+        marker_a801ef8915fe9b47c5855abaebf02ac4.bindPopup(popup_92fffbb79fad0845d240c7f014d41a2c)
+        ;
+
+        
+    
+    
+            var marker_66ad7995c833d44a99f19ffad7b1c61e = L.marker(
+                [34.884201, 38.872516],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_36787f930ea694f9609b337b6c27b751 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1970fff3cd818e37c4786adc7562b27 = $(`<div id="html_b1970fff3cd818e37c4786adc7562b27" style="width: 100.0%; height: 100.0%;">2017/7/30|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_36787f930ea694f9609b337b6c27b751.setContent(html_b1970fff3cd818e37c4786adc7562b27);
+            
+        
+
+        marker_66ad7995c833d44a99f19ffad7b1c61e.bindPopup(popup_36787f930ea694f9609b337b6c27b751)
+        ;
+
+        
+    
+    
+            var marker_97574a129defe700d2651c168a1994fc = L.marker(
+                [34.321916, 38.596644],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_de09f1e9280a12cac2ec706ab43a16ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db78b74bd5de7231122fdfc155134de4 = $(`<div id="html_db78b74bd5de7231122fdfc155134de4" style="width: 100.0%; height: 100.0%;">2017/8/2|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_de09f1e9280a12cac2ec706ab43a16ed.setContent(html_db78b74bd5de7231122fdfc155134de4);
+            
+        
+
+        marker_97574a129defe700d2651c168a1994fc.bindPopup(popup_de09f1e9280a12cac2ec706ab43a16ed)
+        ;
+
+        
+    
+    
+            var marker_aef6579b6a6a88bc627c2cc4bc569065 = L.marker(
+                [35.012791, 37.051506],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_f9fd76eef9e88c6db9767f497d5b0f45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f662ca9a2945ed519e5ab061391d6b1 = $(`<div id="html_4f662ca9a2945ed519e5ab061391d6b1" style="width: 100.0%; height: 100.0%;">2017/8/2|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_f9fd76eef9e88c6db9767f497d5b0f45.setContent(html_4f662ca9a2945ed519e5ab061391d6b1);
+            
+        
+
+        marker_aef6579b6a6a88bc627c2cc4bc569065.bindPopup(popup_f9fd76eef9e88c6db9767f497d5b0f45)
+        ;
+
+        
+    
+    
+            var marker_eb99d7a1be51029776fc023407c0e051 = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_99c185879112c80aa351c890e61d25cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59e8a54836cea8e0a254e5c1e645c24a = $(`<div id="html_59e8a54836cea8e0a254e5c1e645c24a" style="width: 100.0%; height: 100.0%;">2017/8/2|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_99c185879112c80aa351c890e61d25cd.setContent(html_59e8a54836cea8e0a254e5c1e645c24a);
+            
+        
+
+        marker_eb99d7a1be51029776fc023407c0e051.bindPopup(popup_99c185879112c80aa351c890e61d25cd)
+        ;
+
+        
+    
+    
+            var marker_ea4088e5a6f34b8e0ccbc3fe6e4bbd27 = L.marker(
+                [36.231527, 36.94813],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_9d0c1676493b5f91c74e00be3357f326 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7ec75b08913fe29d684ac667b414d2f = $(`<div id="html_d7ec75b08913fe29d684ac667b414d2f" style="width: 100.0%; height: 100.0%;">2017/8/4|Unknown</div>`)[0];
+                popup_9d0c1676493b5f91c74e00be3357f326.setContent(html_d7ec75b08913fe29d684ac667b414d2f);
+            
+        
+
+        marker_ea4088e5a6f34b8e0ccbc3fe6e4bbd27.bindPopup(popup_9d0c1676493b5f91c74e00be3357f326)
+        ;
+
+        
+    
+    
+            var marker_80e29ef5acbb1b6d94842e5620c8b20c = L.marker(
+                [36.528556, 37.954092],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_732230a5ea2546353fc915ab846aa32f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c41c41b9e6cadf73723b8549e5767009 = $(`<div id="html_c41c41b9e6cadf73723b8549e5767009" style="width: 100.0%; height: 100.0%;">2017/8/7|Unknown</div>`)[0];
+                popup_732230a5ea2546353fc915ab846aa32f.setContent(html_c41c41b9e6cadf73723b8549e5767009);
+            
+        
+
+        marker_80e29ef5acbb1b6d94842e5620c8b20c.bindPopup(popup_732230a5ea2546353fc915ab846aa32f)
+        ;
+
+        
+    
+    
+            var marker_86a3c57ea2d7430ff82bd8d498fbf9c0 = L.marker(
+                [35.3397, 37.98416],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_77b84e932bd0aed364757e0b4bdf5acc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3d51f12a91439b2cc9f59347195e597 = $(`<div id="html_d3d51f12a91439b2cc9f59347195e597" style="width: 100.0%; height: 100.0%;">2017/8/7|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_77b84e932bd0aed364757e0b4bdf5acc.setContent(html_d3d51f12a91439b2cc9f59347195e597);
+            
+        
+
+        marker_86a3c57ea2d7430ff82bd8d498fbf9c0.bindPopup(popup_77b84e932bd0aed364757e0b4bdf5acc)
+        ;
+
+        
+    
+    
+            var marker_89216c3df352a43b0d2bbd0ef227b4f3 = L.marker(
+                [34.580192, 39.507971],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_1e5efe347f20f533ddb95a535388ed6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cbc6a8a7904db8dc94626755e09f72f = $(`<div id="html_1cbc6a8a7904db8dc94626755e09f72f" style="width: 100.0%; height: 100.0%;">2017/8/9|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_1e5efe347f20f533ddb95a535388ed6f.setContent(html_1cbc6a8a7904db8dc94626755e09f72f);
+            
+        
+
+        marker_89216c3df352a43b0d2bbd0ef227b4f3.bindPopup(popup_1e5efe347f20f533ddb95a535388ed6f)
+        ;
+
+        
+    
+    
+            var marker_2a7266ef4d52bc6177b16f4c305d348b = L.marker(
+                [35.905811, 36.723055],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_87e538b16f12f471d29d701f1f4c8d51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_259fca095471b93ef88356a2ce227b04 = $(`<div id="html_259fca095471b93ef88356a2ce227b04" style="width: 100.0%; height: 100.0%;">2017/8/12|Unknown</div>`)[0];
+                popup_87e538b16f12f471d29d701f1f4c8d51.setContent(html_259fca095471b93ef88356a2ce227b04);
+            
+        
+
+        marker_2a7266ef4d52bc6177b16f4c305d348b.bindPopup(popup_87e538b16f12f471d29d701f1f4c8d51)
+        ;
+
+        
+    
+    
+            var marker_a91f65e08a67d0628bdb6847f6e8ac1a = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a72b56479417759d415e47aee5caaf0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54569b5ebea87863f14312df0267c533 = $(`<div id="html_54569b5ebea87863f14312df0267c533" style="width: 100.0%; height: 100.0%;">2017/8/13|Free Syrian Army</div>`)[0];
+                popup_a72b56479417759d415e47aee5caaf0d.setContent(html_54569b5ebea87863f14312df0267c533);
+            
+        
+
+        marker_a91f65e08a67d0628bdb6847f6e8ac1a.bindPopup(popup_a72b56479417759d415e47aee5caaf0d)
+        ;
+
+        
+    
+    
+            var marker_ccab92a686265a61e25145167db4311e = L.marker(
+                [36.201721, 37.143521],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_bdd5f5f2bce80c61c57c38d20e8f031d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bea18f8e4377da6e6064c99ad46b5ce = $(`<div id="html_7bea18f8e4377da6e6064c99ad46b5ce" style="width: 100.0%; height: 100.0%;">2017/8/15|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_bdd5f5f2bce80c61c57c38d20e8f031d.setContent(html_7bea18f8e4377da6e6064c99ad46b5ce);
+            
+        
+
+        marker_ccab92a686265a61e25145167db4311e.bindPopup(popup_bdd5f5f2bce80c61c57c38d20e8f031d)
+        ;
+
+        
+    
+    
+            var marker_06b51659846ea1864bf06000df80d474 = L.marker(
+                [32.740127, 36.734833],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_55747bc383ca10cfba23d756381d0d4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2ec6accf0e99605fbe6ac954801f299 = $(`<div id="html_c2ec6accf0e99605fbe6ac954801f299" style="width: 100.0%; height: 100.0%;">2017/8/15|Free Syrian Army</div>`)[0];
+                popup_55747bc383ca10cfba23d756381d0d4b.setContent(html_c2ec6accf0e99605fbe6ac954801f299);
+            
+        
+
+        marker_06b51659846ea1864bf06000df80d474.bindPopup(popup_55747bc383ca10cfba23d756381d0d4b)
+        ;
+
+        
+    
+    
+            var marker_09fc2793d14b258b7fa8af57f1a72895 = L.marker(
+                [36.482582, 37.197102],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_65c29e2bf3acbd0d43eff166fe9cedb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c44e140264f982d328c5ecca9de0121f = $(`<div id="html_c44e140264f982d328c5ecca9de0121f" style="width: 100.0%; height: 100.0%;">2017/8/16|Kurdistan Workers' Party (PKK)</div>`)[0];
+                popup_65c29e2bf3acbd0d43eff166fe9cedb2.setContent(html_c44e140264f982d328c5ecca9de0121f);
+            
+        
+
+        marker_09fc2793d14b258b7fa8af57f1a72895.bindPopup(popup_65c29e2bf3acbd0d43eff166fe9cedb2)
+        ;
+
+        
+    
+    
+            var marker_e823b8ef9317e1d7cd5d62a1d8b8a3fa = L.marker(
+                [35.528803, 35.79298],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_91574a5bb57a66bace5b48be57739e96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6c540af3bfe039b2776bc573a33c70d = $(`<div id="html_a6c540af3bfe039b2776bc573a33c70d" style="width: 100.0%; height: 100.0%;">2017/8/19|Unknown</div>`)[0];
+                popup_91574a5bb57a66bace5b48be57739e96.setContent(html_a6c540af3bfe039b2776bc573a33c70d);
+            
+        
+
+        marker_e823b8ef9317e1d7cd5d62a1d8b8a3fa.bindPopup(popup_91574a5bb57a66bace5b48be57739e96)
+        ;
+
+        
+    
+    
+            var marker_08644575f693d4a3c5e8aaa9a780614a = L.marker(
+                [33.488999, 36.346883],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_96461eb203e5e2a5af35e635d7e60c8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f82c767ee391970e33c8f4518ee43d68 = $(`<div id="html_f82c767ee391970e33c8f4518ee43d68" style="width: 100.0%; height: 100.0%;">2017/8/20|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_96461eb203e5e2a5af35e635d7e60c8c.setContent(html_f82c767ee391970e33c8f4518ee43d68);
+            
+        
+
+        marker_08644575f693d4a3c5e8aaa9a780614a.bindPopup(popup_96461eb203e5e2a5af35e635d7e60c8c)
+        ;
+
+        
+    
+    
+            var marker_96e036984527c38f68735b77ca478496 = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_b7c17d4775f56fc9ad017860073789ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac89077a3534bd4c89a757c285fee325 = $(`<div id="html_ac89077a3534bd4c89a757c285fee325" style="width: 100.0%; height: 100.0%;">2017/8/21|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_b7c17d4775f56fc9ad017860073789ca.setContent(html_ac89077a3534bd4c89a757c285fee325);
+            
+        
+
+        marker_96e036984527c38f68735b77ca478496.bindPopup(popup_b7c17d4775f56fc9ad017860073789ca)
+        ;
+
+        
+    
+    
+            var marker_f1b943edd599f771967f91bcb0db0b67 = L.marker(
+                [32.898413, 36.167442],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_8efc357005b3fff0fc1c97294681b97e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aff58a61c7001707b00719a2700d98cb = $(`<div id="html_aff58a61c7001707b00719a2700d98cb" style="width: 100.0%; height: 100.0%;">2017/8/21|Unknown</div>`)[0];
+                popup_8efc357005b3fff0fc1c97294681b97e.setContent(html_aff58a61c7001707b00719a2700d98cb);
+            
+        
+
+        marker_f1b943edd599f771967f91bcb0db0b67.bindPopup(popup_8efc357005b3fff0fc1c97294681b97e)
+        ;
+
+        
+    
+    
+            var marker_a1d72692eaae5bff8ea73b025f119a17 = L.marker(
+                [36.528556, 37.954092],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_d2646804257fc5bd7f0b511a051ba5d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_170ec671969650b4dc5fcdf740c931ed = $(`<div id="html_170ec671969650b4dc5fcdf740c931ed" style="width: 100.0%; height: 100.0%;">2017/8/23|Free Syrian Army</div>`)[0];
+                popup_d2646804257fc5bd7f0b511a051ba5d0.setContent(html_170ec671969650b4dc5fcdf740c931ed);
+            
+        
+
+        marker_a1d72692eaae5bff8ea73b025f119a17.bindPopup(popup_d2646804257fc5bd7f0b511a051ba5d0)
+        ;
+
+        
+    
+    
+            var marker_59e9216b6f31b23d19e7c023bf9293ac = L.marker(
+                [33.757577, 39.010445],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_84c80a5b6d07d6e296e10e4f481ec3b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b18c749753aa1c97f3db746984b0306 = $(`<div id="html_2b18c749753aa1c97f3db746984b0306" style="width: 100.0%; height: 100.0%;">2017/8/23|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_84c80a5b6d07d6e296e10e4f481ec3b0.setContent(html_2b18c749753aa1c97f3db746984b0306);
+            
+        
+
+        marker_59e9216b6f31b23d19e7c023bf9293ac.bindPopup(popup_84c80a5b6d07d6e296e10e4f481ec3b0)
+        ;
+
+        
+    
+    
+            var marker_5bbb2a7ae2f4752c593d14d37b8f0707 = L.marker(
+                [35.586488, 39.346406],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_b5ba5db1db46c8940cb161fbeaea21fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d80bb32da2c2fcce8d73572f9e4bfa4 = $(`<div id="html_4d80bb32da2c2fcce8d73572f9e4bfa4" style="width: 100.0%; height: 100.0%;">2017/8/24|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_b5ba5db1db46c8940cb161fbeaea21fb.setContent(html_4d80bb32da2c2fcce8d73572f9e4bfa4);
+            
+        
+
+        marker_5bbb2a7ae2f4752c593d14d37b8f0707.bindPopup(popup_b5ba5db1db46c8940cb161fbeaea21fb)
+        ;
+
+        
+    
+    
+            var marker_418ac62f11fbb5fa96e5e998d8687441 = L.marker(
+                [35.012791, 37.051506],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_00689bddf2fe3c6dfb6094ca33910d4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_940eea3c1ceaa184c6d5b45c24cd1096 = $(`<div id="html_940eea3c1ceaa184c6d5b45c24cd1096" style="width: 100.0%; height: 100.0%;">2017/8/24|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_00689bddf2fe3c6dfb6094ca33910d4e.setContent(html_940eea3c1ceaa184c6d5b45c24cd1096);
+            
+        
+
+        marker_418ac62f11fbb5fa96e5e998d8687441.bindPopup(popup_00689bddf2fe3c6dfb6094ca33910d4e)
+        ;
+
+        
+    
+    
+            var marker_1d1ca16c18b88b0406c5fd232031984d = L.marker(
+                [35.032942, 36.938644],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_d75c8b99f6ed68c57111b1a02607268b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab9d6fce69248ca15c19c22bc7a0c5a8 = $(`<div id="html_ab9d6fce69248ca15c19c22bc7a0c5a8" style="width: 100.0%; height: 100.0%;">2017/8/28|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_d75c8b99f6ed68c57111b1a02607268b.setContent(html_ab9d6fce69248ca15c19c22bc7a0c5a8);
+            
+        
+
+        marker_1d1ca16c18b88b0406c5fd232031984d.bindPopup(popup_d75c8b99f6ed68c57111b1a02607268b)
+        ;
+
+        
+    
+    
+            var marker_81d2819895ea3c59dbb0f22304eb9a90 = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_802b2bff41273cd357a1e685b45b533b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbdcba0f644e8a46b84f12f3684984b5 = $(`<div id="html_fbdcba0f644e8a46b84f12f3684984b5" style="width: 100.0%; height: 100.0%;">2017/9/4|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_802b2bff41273cd357a1e685b45b533b.setContent(html_fbdcba0f644e8a46b84f12f3684984b5);
+            
+        
+
+        marker_81d2819895ea3c59dbb0f22304eb9a90.bindPopup(popup_802b2bff41273cd357a1e685b45b533b)
+        ;
+
+        
+    
+    
+            var marker_28c12538ab0d4318fc2f289d837332c7 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_0fd8a31d0cf0b5b8d87a67fbf9715a5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4728f1211ddeea0a275a62d2bb32601 = $(`<div id="html_f4728f1211ddeea0a275a62d2bb32601" style="width: 100.0%; height: 100.0%;">2017/9/9|Free Syrian Army</div>`)[0];
+                popup_0fd8a31d0cf0b5b8d87a67fbf9715a5d.setContent(html_f4728f1211ddeea0a275a62d2bb32601);
+            
+        
+
+        marker_28c12538ab0d4318fc2f289d837332c7.bindPopup(popup_0fd8a31d0cf0b5b8d87a67fbf9715a5d)
+        ;
+
+        
+    
+    
+            var marker_9400ed8c690d7e019a2ddacd02689a37 = L.marker(
+                [37.05336, 41.227344],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_9b98df68c2401b6323951efc2d65d7a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a3b0e8bb6092f4c85909e7d601671b7 = $(`<div id="html_2a3b0e8bb6092f4c85909e7d601671b7" style="width: 100.0%; height: 100.0%;">2017/9/18|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_9b98df68c2401b6323951efc2d65d7a3.setContent(html_2a3b0e8bb6092f4c85909e7d601671b7);
+            
+        
+
+        marker_9400ed8c690d7e019a2ddacd02689a37.bindPopup(popup_9b98df68c2401b6323951efc2d65d7a3)
+        ;
+
+        
+    
+    
+            var marker_7289e133326cf2c6c08deec9d8d84f4b = L.marker(
+                [36.054963, 40.724962],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_4f7dc782adedeed60d015c1648bf1e0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b158677c0c887e8841c87ae643ed0851 = $(`<div id="html_b158677c0c887e8841c87ae643ed0851" style="width: 100.0%; height: 100.0%;">2017/9/19|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_4f7dc782adedeed60d015c1648bf1e0b.setContent(html_b158677c0c887e8841c87ae643ed0851);
+            
+        
+
+        marker_7289e133326cf2c6c08deec9d8d84f4b.bindPopup(popup_4f7dc782adedeed60d015c1648bf1e0b)
+        ;
+
+        
+    
+    
+            var marker_bce0bf0f57b09ed7988951db2b93f75c = L.marker(
+                [35.3578, 36.795525],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_e514cefde41710caa2bc4d9518b74b6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa4200b8ec1bbe857b95d2d3204145bb = $(`<div id="html_aa4200b8ec1bbe857b95d2d3204145bb" style="width: 100.0%; height: 100.0%;">2017/9/19|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_e514cefde41710caa2bc4d9518b74b6b.setContent(html_aa4200b8ec1bbe857b95d2d3204145bb);
+            
+        
+
+        marker_bce0bf0f57b09ed7988951db2b93f75c.bindPopup(popup_e514cefde41710caa2bc4d9518b74b6b)
+        ;
+
+        
+    
+    
+            var marker_812584737f88e0e339445af0cee6dbf4 = L.marker(
+                [35.129182, 36.760737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_821f69d9a5a74b1d35d8f5f38d6b0356 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d2d6f78f7a2995560bad3900c8e90d1 = $(`<div id="html_0d2d6f78f7a2995560bad3900c8e90d1" style="width: 100.0%; height: 100.0%;">2017/9/19|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_821f69d9a5a74b1d35d8f5f38d6b0356.setContent(html_0d2d6f78f7a2995560bad3900c8e90d1);
+            
+        
+
+        marker_812584737f88e0e339445af0cee6dbf4.bindPopup(popup_821f69d9a5a74b1d35d8f5f38d6b0356)
+        ;
+
+        
+    
+    
+            var marker_6a4fb299eda45259a2690b1854eac06a = L.marker(
+                [35.324134, 36.787612],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_0fcc50a19d283cceead34fc4b2933b17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7997fa85b73e5dbdfe21c33dd3e4a8a3 = $(`<div id="html_7997fa85b73e5dbdfe21c33dd3e4a8a3" style="width: 100.0%; height: 100.0%;">2017/9/19|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_0fcc50a19d283cceead34fc4b2933b17.setContent(html_7997fa85b73e5dbdfe21c33dd3e4a8a3);
+            
+        
+
+        marker_6a4fb299eda45259a2690b1854eac06a.bindPopup(popup_0fcc50a19d283cceead34fc4b2933b17)
+        ;
+
+        
+    
+    
+            var marker_69df4ef49acf3e1fba862101477bafea = L.marker(
+                [35.304217, 36.842386],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_60cd1c60ff768caf30a5600c77336e58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acf9e084f6b0cac2b6a67f79827e3db2 = $(`<div id="html_acf9e084f6b0cac2b6a67f79827e3db2" style="width: 100.0%; height: 100.0%;">2017/9/19|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_60cd1c60ff768caf30a5600c77336e58.setContent(html_acf9e084f6b0cac2b6a67f79827e3db2);
+            
+        
+
+        marker_69df4ef49acf3e1fba862101477bafea.bindPopup(popup_60cd1c60ff768caf30a5600c77336e58)
+        ;
+
+        
+    
+    
+            var marker_3a392d6b5cc8a40d287903c52838a8ed = L.marker(
+                [35.445314, 36.304043],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_b9f4f775c016d490945cc81893e045db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc81f5c78d176a157f878f196b3006a6 = $(`<div id="html_dc81f5c78d176a157f878f196b3006a6" style="width: 100.0%; height: 100.0%;">2017/9/19|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_b9f4f775c016d490945cc81893e045db.setContent(html_dc81f5c78d176a157f878f196b3006a6);
+            
+        
+
+        marker_3a392d6b5cc8a40d287903c52838a8ed.bindPopup(popup_b9f4f775c016d490945cc81893e045db)
+        ;
+
+        
+    
+    
+            var marker_7ddf33595d64f23b09a29484361d7382 = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_8ef65683ecb5eedb314b12dfe50b17cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b03a1e1585a8178cd8d29f6a020b9fa = $(`<div id="html_5b03a1e1585a8178cd8d29f6a020b9fa" style="width: 100.0%; height: 100.0%;">2017/9/26|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_8ef65683ecb5eedb314b12dfe50b17cb.setContent(html_5b03a1e1585a8178cd8d29f6a020b9fa);
+            
+        
+
+        marker_7ddf33595d64f23b09a29484361d7382.bindPopup(popup_8ef65683ecb5eedb314b12dfe50b17cb)
+        ;
+
+        
+    
+    
+            var marker_4d94d562d6816694cc2630281aac64fe = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_fe2ea4d4cde946f81d0428476515c4f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acf044f7ec3f7c617bbcb9bf17cc8079 = $(`<div id="html_acf044f7ec3f7c617bbcb9bf17cc8079" style="width: 100.0%; height: 100.0%;">2017/9/28|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_fe2ea4d4cde946f81d0428476515c4f9.setContent(html_acf044f7ec3f7c617bbcb9bf17cc8079);
+            
+        
+
+        marker_4d94d562d6816694cc2630281aac64fe.bindPopup(popup_fe2ea4d4cde946f81d0428476515c4f9)
+        ;
+
+        
+    
+    
+            var marker_1b449e4aaaa2fae89f65339da771f638 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_34d382bca6907fe69ba6dd42fc3c8552 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b6ec897d5aedca19908a8145dd9fdbd = $(`<div id="html_1b6ec897d5aedca19908a8145dd9fdbd" style="width: 100.0%; height: 100.0%;">2017/9/28|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_34d382bca6907fe69ba6dd42fc3c8552.setContent(html_1b6ec897d5aedca19908a8145dd9fdbd);
+            
+        
+
+        marker_1b449e4aaaa2fae89f65339da771f638.bindPopup(popup_34d382bca6907fe69ba6dd42fc3c8552)
+        ;
+
+        
+    
+    
+            var marker_fab2b0b2592fd3fcacfd9dc0b1c7cac6 = L.marker(
+                [34.557125, 38.290454],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_650a0c63a2ec3f96b9f9fa59f3f58b88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f414e0b6e128dc7df58b35df55cd26e7 = $(`<div id="html_f414e0b6e128dc7df58b35df55cd26e7" style="width: 100.0%; height: 100.0%;">2017/9/30|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_650a0c63a2ec3f96b9f9fa59f3f58b88.setContent(html_f414e0b6e128dc7df58b35df55cd26e7);
+            
+        
+
+        marker_fab2b0b2592fd3fcacfd9dc0b1c7cac6.bindPopup(popup_650a0c63a2ec3f96b9f9fa59f3f58b88)
+        ;
+
+        
+    
+    
+            var marker_b3b5f50fce595d9a2c0d9fee58fefbd0 = L.marker(
+                [34.227744, 37.244215],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_7bb387c8bfbff0f59310d508e3dccb28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59530c710abe04d7bb19894706df3a6d = $(`<div id="html_59530c710abe04d7bb19894706df3a6d" style="width: 100.0%; height: 100.0%;">2017/9/28|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_7bb387c8bfbff0f59310d508e3dccb28.setContent(html_59530c710abe04d7bb19894706df3a6d);
+            
+        
+
+        marker_b3b5f50fce595d9a2c0d9fee58fefbd0.bindPopup(popup_7bb387c8bfbff0f59310d508e3dccb28)
+        ;
+
+        
+    
+    
+            var marker_33f2f105cfa0b1d025f04dd7620820f8 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_442293bb2b39a91d7da9515600ba4aae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b02e11fd35b8ee995e743ecf31d0d60 = $(`<div id="html_5b02e11fd35b8ee995e743ecf31d0d60" style="width: 100.0%; height: 100.0%;">2017/10/2|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_442293bb2b39a91d7da9515600ba4aae.setContent(html_5b02e11fd35b8ee995e743ecf31d0d60);
+            
+        
+
+        marker_33f2f105cfa0b1d025f04dd7620820f8.bindPopup(popup_442293bb2b39a91d7da9515600ba4aae)
+        ;
+
+        
+    
+    
+            var marker_f43e34aee1f36bb7c0ae5dae3ec8749a = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_2939a078f335d680ba1b3bef99f710bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69bbf9fe4b43bc72045ef8d029ec6046 = $(`<div id="html_69bbf9fe4b43bc72045ef8d029ec6046" style="width: 100.0%; height: 100.0%;">2017/10/5|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_2939a078f335d680ba1b3bef99f710bd.setContent(html_69bbf9fe4b43bc72045ef8d029ec6046);
+            
+        
+
+        marker_f43e34aee1f36bb7c0ae5dae3ec8749a.bindPopup(popup_2939a078f335d680ba1b3bef99f710bd)
+        ;
+
+        
+    
+    
+            var marker_f331b62c4109587172eb13da16966c79 = L.marker(
+                [35.032788, 37.392071],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_ba8334162f208e2ea922c5b1b2713934 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78b795fd9b1a672e6cbe4e18765b9473 = $(`<div id="html_78b795fd9b1a672e6cbe4e18765b9473" style="width: 100.0%; height: 100.0%;">2017/10/6|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_ba8334162f208e2ea922c5b1b2713934.setContent(html_78b795fd9b1a672e6cbe4e18765b9473);
+            
+        
+
+        marker_f331b62c4109587172eb13da16966c79.bindPopup(popup_ba8334162f208e2ea922c5b1b2713934)
+        ;
+
+        
+    
+    
+            var marker_1921e817ec980d1f2b5a95d96e5bb66a = L.marker(
+                [36.234963, 36.7612],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_871fecf381200325e329d8646efc0d55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_366dbb8731dde872226f91e4cc9c12c3 = $(`<div id="html_366dbb8731dde872226f91e4cc9c12c3" style="width: 100.0%; height: 100.0%;">2017/10/8|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_871fecf381200325e329d8646efc0d55.setContent(html_366dbb8731dde872226f91e4cc9c12c3);
+            
+        
+
+        marker_1921e817ec980d1f2b5a95d96e5bb66a.bindPopup(popup_871fecf381200325e329d8646efc0d55)
+        ;
+
+        
+    
+    
+            var marker_e47c44bc70578025aa9a48baacde01d9 = L.marker(
+                [36.230276, 36.692927],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_f711c99b261a3fb2ce6e8781e5404c81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e20efff5bc4b6328b7d65a4f06e5da60 = $(`<div id="html_e20efff5bc4b6328b7d65a4f06e5da60" style="width: 100.0%; height: 100.0%;">2017/10/8|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_f711c99b261a3fb2ce6e8781e5404c81.setContent(html_e20efff5bc4b6328b7d65a4f06e5da60);
+            
+        
+
+        marker_e47c44bc70578025aa9a48baacde01d9.bindPopup(popup_f711c99b261a3fb2ce6e8781e5404c81)
+        ;
+
+        
+    
+    
+            var marker_94e088ccf419c843ea4e607f77829c3d = L.marker(
+                [35.928802, 36.631452],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_ff0cdd8f85c0ae16b4c23ae6ac523c3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6088dccc7671105209d71e0d31a0daa = $(`<div id="html_c6088dccc7671105209d71e0d31a0daa" style="width: 100.0%; height: 100.0%;">2017/10/9|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_ff0cdd8f85c0ae16b4c23ae6ac523c3e.setContent(html_c6088dccc7671105209d71e0d31a0daa);
+            
+        
+
+        marker_94e088ccf419c843ea4e607f77829c3d.bindPopup(popup_ff0cdd8f85c0ae16b4c23ae6ac523c3e)
+        ;
+
+        
+    
+    
+            var marker_c8f44348fa84b04a42803b768b6b9ec2 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_f7c3a9ba289d6cbee13130b86dc60cb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d2c71cd2fbc7bc6a49c6593f17706e2 = $(`<div id="html_9d2c71cd2fbc7bc6a49c6593f17706e2" style="width: 100.0%; height: 100.0%;">2017/10/11|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_f7c3a9ba289d6cbee13130b86dc60cb1.setContent(html_9d2c71cd2fbc7bc6a49c6593f17706e2);
+            
+        
+
+        marker_c8f44348fa84b04a42803b768b6b9ec2.bindPopup(popup_f7c3a9ba289d6cbee13130b86dc60cb1)
+        ;
+
+        
+    
+    
+            var marker_87adce1909435f4d5e66eab253c49720 = L.marker(
+                [34.227744, 37.244215],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_9ddb99ebfb6dd3c70aaa0c7d73af079b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c86eb6e5a3c53a671acdd8e0a52d52d = $(`<div id="html_7c86eb6e5a3c53a671acdd8e0a52d52d" style="width: 100.0%; height: 100.0%;">2017/10/2|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_9ddb99ebfb6dd3c70aaa0c7d73af079b.setContent(html_7c86eb6e5a3c53a671acdd8e0a52d52d);
+            
+        
+
+        marker_87adce1909435f4d5e66eab253c49720.bindPopup(popup_9ddb99ebfb6dd3c70aaa0c7d73af079b)
+        ;
+
+        
+    
+    
+            var marker_942e1a577eae22f56c27794a4469a520 = L.marker(
+                [35.964956, 40.902176],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_8024b1fb96c95145198a86aea1bc3137 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d95e80c3dd2a049f0e5e805cfd94b35c = $(`<div id="html_d95e80c3dd2a049f0e5e805cfd94b35c" style="width: 100.0%; height: 100.0%;">2017/10/12|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_8024b1fb96c95145198a86aea1bc3137.setContent(html_d95e80c3dd2a049f0e5e805cfd94b35c);
+            
+        
+
+        marker_942e1a577eae22f56c27794a4469a520.bindPopup(popup_8024b1fb96c95145198a86aea1bc3137)
+        ;
+
+        
+    
+    
+            var marker_3fcb4acf78bd964a0df4d735fac88e31 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_ab84b4419e8ce2b7b768894c3472d1ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_657a84796a526c973b866f24f3e5f614 = $(`<div id="html_657a84796a526c973b866f24f3e5f614" style="width: 100.0%; height: 100.0%;">2017/10/15|Unknown</div>`)[0];
+                popup_ab84b4419e8ce2b7b768894c3472d1ba.setContent(html_657a84796a526c973b866f24f3e5f614);
+            
+        
+
+        marker_3fcb4acf78bd964a0df4d735fac88e31.bindPopup(popup_ab84b4419e8ce2b7b768894c3472d1ba)
+        ;
+
+        
+    
+    
+            var marker_2852fbc48c87924fd5c952f24e4309ef = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a459ef9e3eee5094e02e20b7134710be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_083027443b60872e29e0554fbf7fdcac = $(`<div id="html_083027443b60872e29e0554fbf7fdcac" style="width: 100.0%; height: 100.0%;">2017/10/15|Unknown</div>`)[0];
+                popup_a459ef9e3eee5094e02e20b7134710be.setContent(html_083027443b60872e29e0554fbf7fdcac);
+            
+        
+
+        marker_2852fbc48c87924fd5c952f24e4309ef.bindPopup(popup_a459ef9e3eee5094e02e20b7134710be)
+        ;
+
+        
+    
+    
+            var marker_65d76efb75ec099d260379eb075bc208 = L.marker(
+                [35.959411, 38.998105],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_8c34928ae9eba872cae57678d10e6646 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aac7355a2efa1086c05373d61a6084ad = $(`<div id="html_aac7355a2efa1086c05373d61a6084ad" style="width: 100.0%; height: 100.0%;">2017/10/17|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_8c34928ae9eba872cae57678d10e6646.setContent(html_aac7355a2efa1086c05373d61a6084ad);
+            
+        
+
+        marker_65d76efb75ec099d260379eb075bc208.bindPopup(popup_8c34928ae9eba872cae57678d10e6646)
+        ;
+
+        
+    
+    
+            var marker_ea3c09263ab9b728e41def698cb92881 = L.marker(
+                [35.777515, 39.542835],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_308654beed3b5986e47752c243d41346 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_142a4b3a06fe53b4f6501f662116a502 = $(`<div id="html_142a4b3a06fe53b4f6501f662116a502" style="width: 100.0%; height: 100.0%;">2017/10/18|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_308654beed3b5986e47752c243d41346.setContent(html_142a4b3a06fe53b4f6501f662116a502);
+            
+        
+
+        marker_ea3c09263ab9b728e41def698cb92881.bindPopup(popup_308654beed3b5986e47752c243d41346)
+        ;
+
+        
+    
+    
+            var marker_bc6f74e7a923bc8950d49e4e66978d77 = L.marker(
+                [34.227744, 37.244215],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_83055c09f69790567dfde794625cef44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65b093059a8b2042199976184fb14bf6 = $(`<div id="html_65b093059a8b2042199976184fb14bf6" style="width: 100.0%; height: 100.0%;">2017/10/21|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_83055c09f69790567dfde794625cef44.setContent(html_65b093059a8b2042199976184fb14bf6);
+            
+        
+
+        marker_bc6f74e7a923bc8950d49e4e66978d77.bindPopup(popup_83055c09f69790567dfde794625cef44)
+        ;
+
+        
+    
+    
+            var marker_3713f2b2825424634670eb64de28939b = L.marker(
+                [35.015778, 40.455211],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_f85d5874de5afe2a4c2fdb87900045d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_913721e0cb57eb014a7b86472c1c2d9f = $(`<div id="html_913721e0cb57eb014a7b86472c1c2d9f" style="width: 100.0%; height: 100.0%;">2017/10/24|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_f85d5874de5afe2a4c2fdb87900045d9.setContent(html_913721e0cb57eb014a7b86472c1c2d9f);
+            
+        
+
+        marker_3713f2b2825424634670eb64de28939b.bindPopup(popup_f85d5874de5afe2a4c2fdb87900045d9)
+        ;
+
+        
+    
+    
+            var marker_261cd4ec284de4cd0fcaba1623d0924c = L.marker(
+                [35.959411, 38.998105],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_1b8973435aecdaeb8fec471ba873dce3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dc7c505b3de30e5a7b5a7473c44c37a = $(`<div id="html_4dc7c505b3de30e5a7b5a7473c44c37a" style="width: 100.0%; height: 100.0%;">2017/10/24|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_1b8973435aecdaeb8fec471ba873dce3.setContent(html_4dc7c505b3de30e5a7b5a7473c44c37a);
+            
+        
+
+        marker_261cd4ec284de4cd0fcaba1623d0924c.bindPopup(popup_1b8973435aecdaeb8fec471ba873dce3)
+        ;
+
+        
+    
+    
+            var marker_dadffcf9b7a1cd7396816bd5dd64366b = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a39853db35ce478e119aa6e65106a882 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2705d744c54f8fa197771d42cc36ece0 = $(`<div id="html_2705d744c54f8fa197771d42cc36ece0" style="width: 100.0%; height: 100.0%;">2017/10/26|Syrian Democratic Forces (SDF)</div>`)[0];
+                popup_a39853db35ce478e119aa6e65106a882.setContent(html_2705d744c54f8fa197771d42cc36ece0);
+            
+        
+
+        marker_dadffcf9b7a1cd7396816bd5dd64366b.bindPopup(popup_a39853db35ce478e119aa6e65106a882)
+        ;
+
+        
+    
+    
+            var marker_cccedba91582538945002ebb224de98c = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_282af71fed9909d8ec9c68336969db14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_495ec002b1bbea042e9fea8804e0e3c0 = $(`<div id="html_495ec002b1bbea042e9fea8804e0e3c0" style="width: 100.0%; height: 100.0%;">2017/10/27|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_282af71fed9909d8ec9c68336969db14.setContent(html_495ec002b1bbea042e9fea8804e0e3c0);
+            
+        
+
+        marker_cccedba91582538945002ebb224de98c.bindPopup(popup_282af71fed9909d8ec9c68336969db14)
+        ;
+
+        
+    
+    
+            var marker_053c34345fade8c42aa9a2e604925d03 = L.marker(
+                [33.062498, 36.076644],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_b581a100c398956d69a3645fafb7252f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c63f0af617c523e488e7e599cca1db1 = $(`<div id="html_5c63f0af617c523e488e7e599cca1db1" style="width: 100.0%; height: 100.0%;">2017/10/31|Southern Front</div>`)[0];
+                popup_b581a100c398956d69a3645fafb7252f.setContent(html_5c63f0af617c523e488e7e599cca1db1);
+            
+        
+
+        marker_053c34345fade8c42aa9a2e604925d03.bindPopup(popup_b581a100c398956d69a3645fafb7252f)
+        ;
+
+        
+    
+    
+            var marker_8d1d83b59db5ef14bf98ddf8d75b204e = L.marker(
+                [33.280892, 35.829319],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_4d304d7f51b127991420821966cc7f21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b34bd04b9df14154c756d041f4dd90c3 = $(`<div id="html_b34bd04b9df14154c756d041f4dd90c3" style="width: 100.0%; height: 100.0%;">2017/11/3|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_4d304d7f51b127991420821966cc7f21.setContent(html_b34bd04b9df14154c756d041f4dd90c3);
+            
+        
+
+        marker_8d1d83b59db5ef14bf98ddf8d75b204e.bindPopup(popup_4d304d7f51b127991420821966cc7f21)
+        ;
+
+        
+    
+    
+            var marker_0bbd033459cf6b7ad5678415623079e5 = L.marker(
+                [35.333062, 40.138737],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_1b9f9cb1f363275414f9864ba272e4a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7914fdbb39618828548af47cdfc74d6 = $(`<div id="html_e7914fdbb39618828548af47cdfc74d6" style="width: 100.0%; height: 100.0%;">2017/11/4|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_1b9f9cb1f363275414f9864ba272e4a6.setContent(html_e7914fdbb39618828548af47cdfc74d6);
+            
+        
+
+        marker_0bbd033459cf6b7ad5678415623079e5.bindPopup(popup_1b9f9cb1f363275414f9864ba272e4a6)
+        ;
+
+        
+    
+    
+            var marker_9409d68959efba5d81f897d7fd2270b1 = L.marker(
+                [35.951521, 39.009562],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_75f41d4016e70191870a54baf280c658 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_541258342051f64e75146af51ef7ff14 = $(`<div id="html_541258342051f64e75146af51ef7ff14" style="width: 100.0%; height: 100.0%;">2017/11/8|Unknown</div>`)[0];
+                popup_75f41d4016e70191870a54baf280c658.setContent(html_541258342051f64e75146af51ef7ff14);
+            
+        
+
+        marker_9409d68959efba5d81f897d7fd2270b1.bindPopup(popup_75f41d4016e70191870a54baf280c658)
+        ;
+
+        
+    
+    
+            var marker_38255d0bfb113e5e37f8e956d5d94702 = L.marker(
+                [34.936233, 40.586269],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_775fbd38dd54ad140cb95bf11b92f58d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f272fbef54f5da5085e21ece9772e2b = $(`<div id="html_3f272fbef54f5da5085e21ece9772e2b" style="width: 100.0%; height: 100.0%;">2017/11/12|Unknown</div>`)[0];
+                popup_775fbd38dd54ad140cb95bf11b92f58d.setContent(html_3f272fbef54f5da5085e21ece9772e2b);
+            
+        
+
+        marker_38255d0bfb113e5e37f8e956d5d94702.bindPopup(popup_775fbd38dd54ad140cb95bf11b92f58d)
+        ;
+
+        
+    
+    
+            var marker_e4bd6075a45f44f824495a75f4026953 = L.marker(
+                [35.283155, 40.170828],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_560ef4205b2fa0e96c6e51e25bad9389 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_389b70a303ade17aedeb10c4c64b6c0c = $(`<div id="html_389b70a303ade17aedeb10c4c64b6c0c" style="width: 100.0%; height: 100.0%;">2017/11/13|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_560ef4205b2fa0e96c6e51e25bad9389.setContent(html_389b70a303ade17aedeb10c4c64b6c0c);
+            
+        
+
+        marker_e4bd6075a45f44f824495a75f4026953.bindPopup(popup_560ef4205b2fa0e96c6e51e25bad9389)
+        ;
+
+        
+    
+    
+            var marker_8975a398102593e1f21b92e901394f45 = L.marker(
+                [33.561505, 36.368762],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_56d45c573fe08b90c1af116b6556f528 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53106758d41c2dc7d6d6ab092608a742 = $(`<div id="html_53106758d41c2dc7d6d6ab092608a742" style="width: 100.0%; height: 100.0%;">2017/11/14|Ahrar al-Sham</div>`)[0];
+                popup_56d45c573fe08b90c1af116b6556f528.setContent(html_53106758d41c2dc7d6d6ab092608a742);
+            
+        
+
+        marker_8975a398102593e1f21b92e901394f45.bindPopup(popup_56d45c573fe08b90c1af116b6556f528)
+        ;
+
+        
+    
+    
+            var marker_1030c65041342734765dc2e8144b11b2 = L.marker(
+                [35.015778, 40.455211],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_8cb97b77c07b449a2f3d0a6261e16539 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ef03185a60180d878067b0096b61e98 = $(`<div id="html_8ef03185a60180d878067b0096b61e98" style="width: 100.0%; height: 100.0%;">2017/11/16|Unknown</div>`)[0];
+                popup_8cb97b77c07b449a2f3d0a6261e16539.setContent(html_8ef03185a60180d878067b0096b61e98);
+            
+        
+
+        marker_1030c65041342734765dc2e8144b11b2.bindPopup(popup_8cb97b77c07b449a2f3d0a6261e16539)
+        ;
+
+        
+    
+    
+            var marker_c795b8f0c965f21e1026dadc3d71bd6f = L.marker(
+                [35.336, 40.145],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a33aeaba2de1b0a1e71b2848159bbda9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57539f12cdd6568ea99d9fbe73845895 = $(`<div id="html_57539f12cdd6568ea99d9fbe73845895" style="width: 100.0%; height: 100.0%;">2017/11/16|Unknown</div>`)[0];
+                popup_a33aeaba2de1b0a1e71b2848159bbda9.setContent(html_57539f12cdd6568ea99d9fbe73845895);
+            
+        
+
+        marker_c795b8f0c965f21e1026dadc3d71bd6f.bindPopup(popup_a33aeaba2de1b0a1e71b2848159bbda9)
+        ;
+
+        
+    
+    
+            var marker_c0bd1afdf4a21b9ea9e173f2d68c091f = L.marker(
+                [35.464344, 40.669576],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_408de2febf72c39713e413f8305a2031 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bac87c699546fe6db62fce65f6baddc = $(`<div id="html_1bac87c699546fe6db62fce65f6baddc" style="width: 100.0%; height: 100.0%;">2017/11/17|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_408de2febf72c39713e413f8305a2031.setContent(html_1bac87c699546fe6db62fce65f6baddc);
+            
+        
+
+        marker_c0bd1afdf4a21b9ea9e173f2d68c091f.bindPopup(popup_408de2febf72c39713e413f8305a2031)
+        ;
+
+        
+    
+    
+            var marker_192e65ef1ce1d593851c9ada6e8072f3 = L.marker(
+                [35.933706, 36.633296],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_3e8d9277e991246b2c17d74d293d67f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5746f936488200810721b7ea3feceec2 = $(`<div id="html_5746f936488200810721b7ea3feceec2" style="width: 100.0%; height: 100.0%;">2017/11/18|Unknown</div>`)[0];
+                popup_3e8d9277e991246b2c17d74d293d67f9.setContent(html_5746f936488200810721b7ea3feceec2);
+            
+        
+
+        marker_192e65ef1ce1d593851c9ada6e8072f3.bindPopup(popup_3e8d9277e991246b2c17d74d293d67f9)
+        ;
+
+        
+    
+    
+            var marker_83b7124714a274a62e71f1b0f2b554bc = L.marker(
+                [32.691023, 35.975798],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_4ec13752f56d9b1eefe58d5568c3ea82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba3e9ba9268ed17e0fda788033e90d0e = $(`<div id="html_ba3e9ba9268ed17e0fda788033e90d0e" style="width: 100.0%; height: 100.0%;">2017/10/29|Unknown</div>`)[0];
+                popup_4ec13752f56d9b1eefe58d5568c3ea82.setContent(html_ba3e9ba9268ed17e0fda788033e90d0e);
+            
+        
+
+        marker_83b7124714a274a62e71f1b0f2b554bc.bindPopup(popup_4ec13752f56d9b1eefe58d5568c3ea82)
+        ;
+
+        
+    
+    
+            var marker_48174cd2c57d441edf74b49c7b38b927 = L.marker(
+                [34.717704, 36.722823],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_e4a576eb18c738fd889cdd9cb41e48fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a22b37c36a4675c2e95f5f8d037aacb6 = $(`<div id="html_a22b37c36a4675c2e95f5f8d037aacb6" style="width: 100.0%; height: 100.0%;">2017/12/5|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_e4a576eb18c738fd889cdd9cb41e48fe.setContent(html_a22b37c36a4675c2e95f5f8d037aacb6);
+            
+        
+
+        marker_48174cd2c57d441edf74b49c7b38b927.bindPopup(popup_e4a576eb18c738fd889cdd9cb41e48fe)
+        ;
+
+        
+    
+    
+            var marker_d57300aa974e3345046f7f661fcc5cbb = L.marker(
+                [35.928802, 36.631452],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_f87da22cb6b853402f3c027c36058726 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d29c974315650bb40ae677a060138ddf = $(`<div id="html_d29c974315650bb40ae677a060138ddf" style="width: 100.0%; height: 100.0%;">2017/12/10|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_f87da22cb6b853402f3c027c36058726.setContent(html_d29c974315650bb40ae677a060138ddf);
+            
+        
+
+        marker_d57300aa974e3345046f7f661fcc5cbb.bindPopup(popup_f87da22cb6b853402f3c027c36058726)
+        ;
+
+        
+    
+    
+            var marker_68c639c91534c5a7b3b4e57fea839e1a = L.marker(
+                [35.928802, 36.631452],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_f3d60607312ce3d9d52d84d800440782 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb1a466f1287280b6db383fd280ed84f = $(`<div id="html_cb1a466f1287280b6db383fd280ed84f" style="width: 100.0%; height: 100.0%;">2017/12/12|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_f3d60607312ce3d9d52d84d800440782.setContent(html_cb1a466f1287280b6db383fd280ed84f);
+            
+        
+
+        marker_68c639c91534c5a7b3b4e57fea839e1a.bindPopup(popup_f3d60607312ce3d9d52d84d800440782)
+        ;
+
+        
+    
+    
+            var marker_cda36226cec4e02e8094feefbb6a6366 = L.marker(
+                [33.515242, 36.292083],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_f10394614fb1054c47c0b95d5e1f7719 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92e7d49e847ecad66046f031df397bc0 = $(`<div id="html_92e7d49e847ecad66046f031df397bc0" style="width: 100.0%; height: 100.0%;">2017/12/13|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_f10394614fb1054c47c0b95d5e1f7719.setContent(html_92e7d49e847ecad66046f031df397bc0);
+            
+        
+
+        marker_cda36226cec4e02e8094feefbb6a6366.bindPopup(popup_f10394614fb1054c47c0b95d5e1f7719)
+        ;
+
+        
+    
+    
+            var marker_de9cc399cdbe53f2fa380ac74d9d3645 = L.marker(
+                [35.928802, 36.631452],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_ff607df8cf7cb034f9ba4a665f0ee74a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d052f550ee98c31310e2c6a3ed0b5d10 = $(`<div id="html_d052f550ee98c31310e2c6a3ed0b5d10" style="width: 100.0%; height: 100.0%;">2017/12/13|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_ff607df8cf7cb034f9ba4a665f0ee74a.setContent(html_d052f550ee98c31310e2c6a3ed0b5d10);
+            
+        
+
+        marker_de9cc399cdbe53f2fa380ac74d9d3645.bindPopup(popup_ff607df8cf7cb034f9ba4a665f0ee74a)
+        ;
+
+        
+    
+    
+            var marker_be0d31d357e298cbc583f279241d5367 = L.marker(
+                [35.09912, 40.459325],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_76db3fc30212e9e046f028e080ab8fb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46f77d5e763df281a1a666a84795158a = $(`<div id="html_46f77d5e763df281a1a666a84795158a" style="width: 100.0%; height: 100.0%;">2017/12/20|Islamic State of Iraq and the Levant (ISIL)</div>`)[0];
+                popup_76db3fc30212e9e046f028e080ab8fb1.setContent(html_46f77d5e763df281a1a666a84795158a);
+            
+        
+
+        marker_be0d31d357e298cbc583f279241d5367.bindPopup(popup_76db3fc30212e9e046f028e080ab8fb1)
+        ;
+
+        
+    
+    
+            var marker_899c57bd6fa49973a958f481aa03488b = L.marker(
+                [35.928802, 36.631452],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_212730bf8f0a732a909b88b00a33fcd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19122259c7f9996a40897ead6044ea15 = $(`<div id="html_19122259c7f9996a40897ead6044ea15" style="width: 100.0%; height: 100.0%;">2017/12/20|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_212730bf8f0a732a909b88b00a33fcd7.setContent(html_19122259c7f9996a40897ead6044ea15);
+            
+        
+
+        marker_899c57bd6fa49973a958f481aa03488b.bindPopup(popup_212730bf8f0a732a909b88b00a33fcd7)
+        ;
+
+        
+    
+    
+            var marker_a5c0dd6a8dbbe54267fa4d8b59ee4f3f = L.marker(
+                [36.201721, 37.143521],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_b51225be55a017e502ccf667217d5c62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc4e3f87c1c2d7400bef2236b2c000a8 = $(`<div id="html_fc4e3f87c1c2d7400bef2236b2c000a8" style="width: 100.0%; height: 100.0%;">2017/12/21|Unknown</div>`)[0];
+                popup_b51225be55a017e502ccf667217d5c62.setContent(html_fc4e3f87c1c2d7400bef2236b2c000a8);
+            
+        
+
+        marker_a5c0dd6a8dbbe54267fa4d8b59ee4f3f.bindPopup(popup_b51225be55a017e502ccf667217d5c62)
+        ;
+
+        
+    
+    
+            var marker_ce7fd572b17aaca2e14405f518708e5e = L.marker(
+                [36.201721, 37.143521],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_e85ff218afe4afaaf6c1160f967028f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd77dbab205f2392364abfdeca0a1533 = $(`<div id="html_bd77dbab205f2392364abfdeca0a1533" style="width: 100.0%; height: 100.0%;">2017/12/21|Unknown</div>`)[0];
+                popup_e85ff218afe4afaaf6c1160f967028f8.setContent(html_bd77dbab205f2392364abfdeca0a1533);
+            
+        
+
+        marker_ce7fd572b17aaca2e14405f518708e5e.bindPopup(popup_e85ff218afe4afaaf6c1160f967028f8)
+        ;
+
+        
+    
+    
+            var marker_6a617dcee02b94145f1ceb180568e8f9 = L.marker(
+                [35.615622, 36.558394],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_a523f9fb30d010e775dfc5f91d1b84d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_391b8181f39c6c19f4e96fd5fe744470 = $(`<div id="html_391b8181f39c6c19f4e96fd5fe744470" style="width: 100.0%; height: 100.0%;">2017/12/26|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_a523f9fb30d010e775dfc5f91d1b84d9.setContent(html_391b8181f39c6c19f4e96fd5fe744470);
+            
+        
+
+        marker_6a617dcee02b94145f1ceb180568e8f9.bindPopup(popup_a523f9fb30d010e775dfc5f91d1b84d9)
+        ;
+
+        
+    
+    
+            var marker_f47bb3f22760b903d0edd06ca6bc47c2 = L.marker(
+                [33.561505, 36.368762],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_ab78821a8919af4ce678933f6684355b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f60aacd9d3e0ff1d1ab051e4da19f56 = $(`<div id="html_7f60aacd9d3e0ff1d1ab051e4da19f56" style="width: 100.0%; height: 100.0%;">2017/12/30|Hay'at Tahrir al-Sham</div>`)[0];
+                popup_ab78821a8919af4ce678933f6684355b.setContent(html_7f60aacd9d3e0ff1d1ab051e4da19f56);
+            
+        
+
+        marker_f47bb3f22760b903d0edd06ca6bc47c2.bindPopup(popup_ab78821a8919af4ce678933f6684355b)
+        ;
+
+        
+    
+    
+            var marker_dec6b3886e2a21decd03ab21c7e4081b = L.marker(
+                [35.407278, 35.942679],
+                {}
+            ).addTo(map_91b16595cc8bb02b583fe8c829bc3fbb);
+        
+    
+        var popup_551746c55d9dc818c3fc9b39e769f919 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a681058cc1b4fa80bf15777ed1d8696 = $(`<div id="html_1a681058cc1b4fa80bf15777ed1d8696" style="width: 100.0%; height: 100.0%;">2017/12/31|Muslim extremists</div>`)[0];
+                popup_551746c55d9dc818c3fc9b39e769f919.setContent(html_1a681058cc1b4fa80bf15777ed1d8696);
+            
+        
+
+        marker_dec6b3886e2a21decd03ab21c7e4081b.bindPopup(popup_551746c55d9dc818c3fc9b39e769f919)
+        ;
+
+        
+    
+</script>
+</html>
